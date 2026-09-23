@@ -743,6 +743,9 @@ mpage("instruments/centrifuge", "冷凍離心機（Refrigerated Centrifuge）", 
 <p><a href="https://www.thermofisher.com/order/catalog/product/75007213" target="_blank" rel="noopener">廠商產品頁 →</a></p>
 <h2>原理</h2>
 <p>轉子高速旋轉時，樣品中密度較大的成分受到的離心力較大，會較快沉降到離心管底部，密度較小的成分則留在上層，藉此依大小或密度分離樣品中的不同成分。本機可同時控制轉速與溫度，適合處理需要低溫的樣品。</p>
+<h3>RPM 與 RCF 的差別</h3>
+<p>儀器面板上顯示的轉速通常是 <strong>RPM</strong>（每分鐘轉數），但同樣的 RPM 在不同機型、不同轉子（半徑不同）上，樣品實際受到的離心力並不相同。<strong>RCF</strong>（相對離心力，以 × g 表示）把轉子半徑也算進去，才是實際的離心強度，因此提供了一個標準化的方式來描述離心強度，讓不同儀器、不同轉子之間的實驗結果可以互相比較。文獻上的離心條件也大多以 RCF（× g）標示，設定轉速前建議先換算成本機轉子對應的 RPM。</p>
+<div class="videos">{video("gWhX_dS0Z9E", "Centrifuge Introduction", "Quick Biochemistry Basics")}{video("np-pWQI6pE0", "RCF | Relative centrifugal force", "Quick Biochemistry Basics")}</div>
 <h2>操作方式</h2>
 <h3>使用規定</h3>
 <ul class="bullets">
