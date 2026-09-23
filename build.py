@@ -574,7 +574,6 @@ page("news.html", "最新消息", "最新消息", "論文發表、獲獎、演�
 # ---- Resources -------------------------------------------------------------------
 LINKS = [("校內系統", "陽明交大單一入口", "https://portal.nycu.edu.tw/#/login?redirect=%2F", "登入校內各項行政與學習系統。"),
          ("系所", "陽明交大藥學系", "https://pharmacy.nycu.edu.tw/", "國立陽明交通大學藥學系官方網站。"),
-         ("學術檔案", "陽明交大學術資料庫：胡德民", "https://scholar.nycu.edu.tw/zh/persons/teh-min-hu/", "老師的官方學術個人頁，含研究專長、論文清單與引用統計。"),
          ("校內系統", "課程查詢", "https://timetable.nycu.edu.tw/", "查詢各學期開設的課程與時間。"),
          ("校內系統", "儀器預約", "https://ircbooking.nycu.edu.tw/irc/", "預約校內共用儀器。"),
          ("校內系統", "環安系統", "https://oehs.nycu.edu.tw/portal/manulogin", "環境安全衛生相關系統，需登入。"),
