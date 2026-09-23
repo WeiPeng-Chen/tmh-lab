@@ -700,9 +700,8 @@ mpage("instruments/uv-vis", "紫外-可見光分光光度計（UV-Vis）", "以 
 <li>使用時務必填寫實驗本：姓名／實驗室（TMH）／使用時間；使用後檢查沒問題，填上 OK。</li>
 <li>如需提前預約時段，請在紀錄本上寫下姓名與時間，並用螢光筆畫記，標示該時段已被預約。</li>
 </ul>
-<h3>參考文件</h3>
+<h3>詳細操作步驟</h3>
 <p><a href="../../assets/instruments/manuals/uv-vis-manual.pdf" target="_blank" rel="noopener">LabSolutions 操作說明（PDF，掃描版）→</a></p>
-{empty("操作影片與本實驗室的量測流程，將於整理後補上。")}
 <h2>管理者</h2>
 <p>陳日榮老師實驗室</p>''', nav_cur="members/instruments.html")
 
