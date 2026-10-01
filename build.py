@@ -759,6 +759,7 @@ SOFTWARE = [
     ("統計與繪圖", "R 與 RStudio", "https://rstudio-education.github.io/hopr/starting.html", "統計分析與精美的數據圖。連結是 R 與 RStudio 的安裝教學。"),
     ("程式語言", "Python", "https://www.python.org/downloads/", "資料分析與自動化。連結為官方下載頁。"),
     ("統計與繪圖", "Prism", None, "製作數據圖表與統計分析的好夥伴。安裝檔放在實驗室雲端硬碟，需以被授權的帳號登入。 <a href=\"https://drive.google.com/drive/folders/1D24fpavqvcxRGg3rMNiuacbnilZupFrf?usp=drive_link\" target=\"_blank\" rel=\"noopener\">前往雲端硬碟下載 →</a>"),
+    ("層析軟體", "HPLC 儀器預約", "https://calendar.google.com/calendar/u/0/r/week/2024/11/18?mode=day&date=20241115T082540&pli=1", "預約 HPLC 儀器使用時段。如未有權限，請向廖曉偉老師申請。"),
     ("層析軟體", "HPLC 軟體（UC 5.1.16）", None, "HPLC 儀器的資料處理軟體。安裝檔放在實驗室雲端硬碟，需以被授權的帳號登入。 <a href=\"https://drive.google.com/drive/folders/1D24fpavqvcxRGg3rMNiuacbnilZupFrf?usp=drive_link\" target=\"_blank\" rel=\"noopener\">前往雲端硬碟下載 →</a>"),
     ("輸入法", "華碩智慧輸入法", "https://apps.microsoft.com/detail/9mt4l79z1g0n?hl=zh-TW&gl=TW", "中英文輸入自動辨識，不用一直按 Shift 切換輸入法。"),
 ]
