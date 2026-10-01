@@ -811,7 +811,12 @@ mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有
 <figure class="hero"><img src="../../assets/instruments/funnel-support-weight-ring.webp" alt="漏斗固定架與配重環"></figure>
 <p class="muted small">漏斗固定架（Funnel Support，暱稱「屁墊」，左）與配重環（右）：水浴加熱時用來墊高、固定玻璃器皿，配重環並可增加器皿重量，避免器皿在水浴中漂浮、翻倒或移動。</p>
 <h2>操作方式</h2>
-{empty("使用規定將於整理後補上。")}
+<ol class="bullets">
+<li>長按 <strong>ON</strong> 開機。</li>
+<li>按 <strong>SET</strong> 進入溫度設定模式。</li>
+<li>按 <strong>←</strong> 切換要調整的位數（例如設定溫度要從 37.0°C 改成 47.0°C，先按 ← 切到十位數）。</li>
+<li>按 <strong>↑／↓</strong> 調整該位數的數值，完成後再按一次 <strong>SET</strong> 確認。</li>
+</ol>
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
 
