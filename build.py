@@ -807,6 +807,9 @@ mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有
 <tr><td>水槽容量</td><td>20 L</td><td>10 L</td></tr>
 <tr><td>水流</td><td>水會在槽內循環</td><td>靠自然對流</td></tr>
 </table>
+<h3>配件</h3>
+<figure class="hero"><img src="../../assets/instruments/funnel-support-weight-ring.webp" alt="漏斗固定架與配重環"></figure>
+<p class="muted small">漏斗固定架（Funnel Support，暱稱「屁墊」，左）與配重環（右）：水浴加熱時用來墊高、固定玻璃器皿，配重環並可增加器皿重量，避免器皿在水浴中漂浮、翻倒或移動。</p>
 <h2>操作方式</h2>
 {empty("使用規定將於整理後補上。")}
 <h2>管理者</h2>
@@ -852,7 +855,7 @@ mpage("instruments/ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner
 <p><strong>型號：</strong>DELTA Ultrasonic Cleaner DH150H（加熱型）<br><strong>位置：</strong>本實驗室內</p>
 <h2>原理與用途</h2>
 <p>利用超音波在液體中產生的空化作用（cavitation）清洗玻璃器皿、金屬器材等物品；面板上的 SET TIME／SET TEMP／TANK TEMP／HEAT ON 可同時設定清洗時間與加熱溫度，不只是單純的超音波震盪槽。</p>
-<figure class="hero"><img src="../../assets/instruments/ultrasonic-cleaner-accessories.webp" alt="漏斗固定架與配重環"></figure>
+<figure class="hero"><img src="../../assets/instruments/funnel-support-weight-ring.webp" alt="漏斗固定架與配重環"></figure>
 <p class="muted small">漏斗固定架（Funnel Support，暱稱「屁墊」，左）與配重環（右）：清洗瓶類器皿時用來墊高、固定，配重環並可增加器皿重量，避免清洗或水浴時器皿漂浮、翻倒或移動。</p>
 <h2>操作方式</h2>
 <h3>注意事項</h3>
