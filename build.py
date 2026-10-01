@@ -719,9 +719,12 @@ mpage("instruments/elisa-reader", "酵素免疫分析儀（ELISA Reader）", "�
 <h3>③ 冷光測量</h3>
 <div class="videos">{video("nXE_rT02jzE", "Luminescence – How does it work in plate reader?", "Tecan Japan")}{video("-Kl7L3nl5og", "Tecan SPARK Luminescence & Kinetics教學影片", "陽明交通大學儀器資源中心")}</div>
 <h2>操作方式</h2>
-{empty("使用規定與本實驗室的操作流程，將於整理後補上。")}
+<h3>使用規定</h3>
+<ul class="bullets">
+<li>使用時務必填寫實驗本：姓名／實驗室（TMH）／使用時間；使用後檢查沒問題，填上 OK。</li>
+</ul>
 <h2>管理者</h2>
-{empty("管理者資訊將於整理後補上。")}''', nav_cur="members/instruments.html")
+<p>守仁樓 717 室：本實驗室<br>守仁樓 B1F B02 室：B1 儀器管理員</p>''', nav_cur="members/instruments.html")
 
 
 mpage("instruments/lyophilizer", "減壓濃縮機（Freeze dryer）", "以冷凍乾燥移除樣品中的水分。位於生物醫學大樓 710 室。",
