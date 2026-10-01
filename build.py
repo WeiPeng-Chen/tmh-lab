@@ -602,7 +602,9 @@ INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLE
                ("centrifuge", "冷凍離心機（Refrigerated Centrifuge）", "Thermo Scientific Heraeus Megafuge 8R",
                 "以離心力分離樣品中不同密度或大小的成分，可控制轉速與溫度。", "assets/instruments/centrifuge.jpg"),
                ("water-bath", "水浴槽（Water Bath）", "FIRSTEK B206 / YIH DER",
-                "恆溫加熱水槽，本實驗室備有循環式與非循環式兩種。", "assets/instruments/water-bath-circulating.png")]
+                "恆溫加熱水槽，本實驗室備有循環式與非循環式兩種。", "assets/instruments/water-bath-circulating.png"),
+               ("orbital-shaker", "軌道式震盪器（Orbital Shaker）", "FIRSTEK S-101",
+                "以軌道式震盪進行培養液混合、染色脫色等需要長時間輕柔搖動的步驟。", "assets/instruments/orbital-shaker.png")]
 
 mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注意事項。",
       '<ul class="list inst">' + "".join(
@@ -803,6 +805,23 @@ mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有
 </table>
 <h2>操作方式</h2>
 {empty("使用規定將於整理後補上。")}
+<h2>管理者</h2>
+<p>本實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/orbital-shaker", "軌道式震盪器（Orbital Shaker）", "以 FIRSTEK S-101 進行輕柔搖動與混合。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<figure class="hero"><img src="../../assets/instruments/orbital-shaker.png" alt="FIRSTEK S-101 軌道式震盪器"></figure>
+<p><strong>位置：</strong>本實驗室內</p>
+<h2>用途</h2>
+<ul class="bullets">
+<li>培養液混合</li>
+<li>染色／脫色</li>
+<li>蛋白質或細胞相關樣品的溫和混合</li>
+<li>化學反應混合</li>
+<li>Western blot、染色等需要長時間輕柔搖動的步驟</li>
+</ul>
+<h2>操作方式</h2>
+<p>面板上的 <strong>RPM</strong> 控制震盪速度，<strong>TIMER</strong> 控制震盪時間。</p>
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
 
