@@ -630,8 +630,7 @@ mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注
               f'<li><a class="inst-img" href="instruments/{k}.html"><img src="../{img}" alt="{t}"></a>'
               f'<div><p class="label">{m}</p><h3><a href="instruments/{k}.html">{t}</a></h3><p class="muted">{d}</p>'
               f'<p><a href="instruments/{k}.html">原理與操作影片 →</a></p></div></li>' for k, t, m, d, img in items) + '</ul>'
-          for cat, items in INSTRUMENTS) +
-      f'<p class="muted small">更多儀器將陸續加入。{PH}</p>')
+          for cat, items in INSTRUMENTS))
 
 mpage("instruments/balance", "分析天平（Analytical Balance）", "以 METTLER TOLEDO ME204 進行精密秤量。",
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
