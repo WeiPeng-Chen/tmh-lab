@@ -637,7 +637,7 @@ mpage("instruments/balance", "分析天平（Analytical Balance）", "以 METTLE
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <figure class="hero"><img src="../../assets/instruments/balance.jpg" alt="METTLER TOLEDO ME204 分析天平"></figure>
 <p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
-<p><strong>位置：</strong>715-2（本實驗室內）</p>
+<p><strong>型號：</strong>METTLER TOLEDO ME204<br><strong>位置：</strong>715-2（本實驗室內）</p>
 <h2>為什麼秤重這麼重要</h2>
 <p>幾乎每個實驗都是從秤重開始：配製溶液的濃度、藥品劑量、反應物的當量比，都是以秤得的重量為基礎去計算出來的。秤重如果不準，後面所有依這個重量計算出的結果都會跟著偏差，而且這個誤差通常不會在後續步驟中被發現，只會被一路帶到最終數據裡。這也是為什麼秤重是整個實驗最基本、卻也最容易被輕忽的一步。</p>
 <h3>秤重的準確度要求</h3>
@@ -657,7 +657,7 @@ mpage("instruments/ph-meter", "pH meter", "以 METTLER TOLEDO SevenCompact S220 
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <figure class="hero"><img src="../../assets/instruments/ph-meter.jpg" alt="METTLER TOLEDO SevenCompact S220 pH meter"></figure>
 <p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
-<p><strong>位置：</strong>715-2（本實驗室內）</p>
+<p><strong>型號：</strong>METTLER TOLEDO SevenCompact S220<br><strong>位置：</strong>715-2（本實驗室內）</p>
 <h2>原理</h2>
 <p>pH 電極內的玻璃薄膜對氫離子敏感，會依溶液中氫離子濃度產生電位差，儀器將這個電位差換算成 pH 值。因為電極的電位反應會隨時間與使用而改變，測量前必須以已知 pH 值的標準緩衝液校正，確認電極仍然準確。</p>
 <div class="videos">{video("zJTQLce-WC8", "pH Meter | working of glass electrode of pH meter", "Quick Biochemistry Basics")}</div>
@@ -685,7 +685,7 @@ mpage("instruments/dls", "動態光散射儀（DLS）與 Zeta 電位分析儀", 
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <figure class="hero"><img src="../../assets/instruments/dls-zetasizer.jpg" alt="Malvern Zetasizer Nano 動態光散射與 Zeta 電位分析儀"></figure>
 <p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
-<p><strong>位置：</strong>守仁樓 717 室</p>
+<p><strong>型號：</strong>Malvern Zetasizer Nano<br><strong>位置：</strong>守仁樓 717 室</p>
 <h2>原理</h2>
 <h3>粒徑：動態光散射（DLS）</h3>
 <p>懸浮在液體中的粒子會不斷做布朗運動：粒子越小動得越快，粒子越大動得越慢。雷射照射樣品時，散射光的強度會隨粒子運動而快速起伏。儀器量測這些起伏的相關函數，得到粒子的擴散係數，再依 Stokes–Einstein 方程式換算成<strong>流體動力學直徑</strong>（hydrodynamic diameter），並同時給出粒徑分布的寬窄，即多分散性指數（PDI）。</p>
@@ -715,7 +715,7 @@ mpage("instruments/uv-vis", "紫外-可見光分光光度計（UV-Vis）", "以 
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <figure class="hero"><img src="../../assets/instruments/uv-vis.jpg" alt="Shimadzu UV-1900i Plus 紫外-可見光分光光度計"></figure>
 <p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
-<p><strong>位置：</strong>守仁樓 717 室</p>
+<p><strong>型號：</strong>Shimadzu UV-1900i Plus<br><strong>位置：</strong>守仁樓 717 室</p>
 <h2>原理</h2>
 <p>樣品中的分子吸收特定波長的光，會使電子從基態躍遷到激發態。UV-Vis 分光光度計掃描一段波長範圍，量測光通過樣品前後的強度差異，畫出<strong>吸收光譜</strong>。依 Beer–Lambert 定律，吸光度（A）與樣品濃度（c）、光徑長（l）成正比：A = εcl（ε 為莫耳吸光係數），因此可用於定量分析與反應動力學的追蹤（例如奈米粒子生成、褐變反應的顏色變化）。</p>
 <div class="videos">{video("gGRMtq7hvHc", "Spectroscopy || Beer-Lambert's Law", "Rethink Biology")}</div>
@@ -785,7 +785,7 @@ mpage("instruments/centrifuge", "冷凍離心機（Refrigerated Centrifuge）", 
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <figure class="hero"><img src="../../assets/instruments/centrifuge.jpg" alt="Thermo Scientific Heraeus Megafuge 8R 冷凍離心機"></figure>
 <p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
-<p><strong>位置：</strong>守仁樓 715-8</p>
+<p><strong>型號：</strong>Thermo Scientific Heraeus Megafuge 8R<br><strong>位置：</strong>守仁樓 715-8</p>
 <p><a href="https://www.thermofisher.com/order/catalog/product/75007213" target="_blank" rel="noopener">廠商產品頁 →</a></p>
 <h2>原理</h2>
 <p>轉子高速旋轉時，樣品中密度較大的成分受到的離心力較大，會較快沉降到離心管底部，密度較小的成分則留在上層，藉此依大小或密度分離樣品中的不同成分。本機可同時控制轉速與溫度，適合處理需要低溫的樣品。</p>
@@ -841,7 +841,7 @@ mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有
 mpage("instruments/orbital-shaker", "軌道式震盪器（Orbital Shaker）", "以 FIRSTEK S-101 進行輕柔搖動與混合。",
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <figure class="hero"><img src="../../assets/instruments/orbital-shaker.png" alt="FIRSTEK S-101 軌道式震盪器"></figure>
-<p><strong>位置：</strong>本實驗室內</p>
+<p><strong>型號：</strong>FIRSTEK S-101<br><strong>位置：</strong>本實驗室內</p>
 <h2>用途</h2>
 <ul class="bullets">
 <li>培養液混合</li>
