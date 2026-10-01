@@ -593,8 +593,8 @@ INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLE
                 "量測水溶液的酸鹼值（pH）與離子濃度，使用前須以標準緩衝液校正。", "assets/instruments/ph-meter.jpg"),
                ("uv-vis", "紫外-可見光分光光度計（UV-Vis）", "Shimadzu UV-1900i Plus",
                 "量測樣品在紫外光與可見光波段的吸收光譜，用於濃度測定與反應動力學。", "assets/instruments/uv-vis.jpg"),
-               ("elisa-reader", "酵素免疫分析儀（ELISA Reader）", "TECAN Sunrise",
-                "可進行吸收光、全波長螢光與冷光測量，廣泛用於 ELISA 等酵素免疫分析。", "assets/instruments/elisa-reader.png"),
+               ("elisa-reader", "酵素免疫分析儀（ELISA Reader）", "TECAN Spark 10M / Sunrise",
+                "可進行吸收光、全波長螢光與冷光測量，廣泛用於 ELISA 等酵素免疫分析。", "assets/instruments/elisa-reader-spark.png"),
                ("dls", "動態光散射儀（DLS）與 Zeta 電位分析儀", "Malvern Zetasizer Nano",
                 "量測奈米粒子的粒徑分布、多分散性指數（PDI）與 Zeta 電位。", "assets/instruments/dls-zetasizer.jpg"),
                ("lyophilizer", "減壓濃縮機（Freeze dryer）", "VirTis BTP-9EGE0X",
@@ -716,11 +716,13 @@ mpage("instruments/uv-vis", "紫外-可見光分光光度計（UV-Vis）", "以 
 <h2>管理者</h2>
 <p>陳日榮老師實驗室</p>''', nav_cur="members/instruments.html")
 
-mpage("instruments/elisa-reader", "酵素免疫分析儀（ELISA Reader）", "以 TECAN Sunrise 進行吸收光、全波長螢光與冷光測量。",
+mpage("instruments/elisa-reader", "酵素免疫分析儀（ELISA Reader）", "以 TECAN Spark 10M 與 Sunrise 進行吸收光、全波長螢光與冷光測量。",
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
-<figure class="hero"><img src="../../assets/instruments/elisa-reader.png" alt="TECAN Sunrise 酵素免疫分析儀"></figure>
+<div class="hero-row">
+<figure><img src="../../assets/instruments/elisa-reader-spark.png" alt="TECAN Spark 10M 酵素免疫分析儀"><figcaption><strong>TECAN Spark 10M</strong><br>守仁樓 717 室（本實驗室）</figcaption></figure>
+<figure><img src="../../assets/instruments/elisa-reader-sunrise.png" alt="TECAN Sunrise 酵素免疫分析儀"><figcaption><strong>TECAN Sunrise</strong><br>守仁樓 B1F B02 室</figcaption></figure>
+</div>
 <p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
-<p><strong>型號：</strong>TECAN Sunrise<br><strong>位置：</strong>守仁樓 B1F B02 室、守仁樓 717 室</p>
 <h2>使用目的</h2>
 <h3>① 吸收光測量</h3>
 <div class="videos">{video("W3ZK9B8AnJo", "Absorbance – How does it work in plate reader?", "Tecan Japan")}{video("Uh2cS7PvDDo", "Tecan SPARK Absorbance吸收光測量教學影片", "陽明交通大學儀器資源中心")}</div>
