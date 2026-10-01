@@ -587,38 +587,50 @@ def mpage(slug, title, lede, body, nav_cur=None):
 
 
 
-INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLEDO ME204",
-                "四位數精密秤量，是配製溶液、秤量藥品最基本也最關鍵的一步。", "assets/instruments/balance.jpg"),
-               ("ph-meter", "pH meter", "METTLER TOLEDO SevenCompact S220",
-                "量測水溶液的酸鹼值（pH）與離子濃度，使用前須以標準緩衝液校正。", "assets/instruments/ph-meter.jpg"),
-               ("uv-vis", "紫外-可見光分光光度計（UV-Vis）", "Shimadzu UV-1900i Plus",
-                "量測樣品在紫外光與可見光波段的吸收光譜，用於濃度測定與反應動力學。", "assets/instruments/uv-vis.jpg"),
-               ("elisa-reader", "酵素免疫分析儀（ELISA Reader）", "TECAN Spark 10M / Sunrise",
-                "可進行吸收光、全波長螢光與冷光測量，廣泛用於 ELISA 等酵素免疫分析。", "assets/instruments/elisa-reader-spark.png"),
-               ("dls", "動態光散射儀（DLS）與 Zeta 電位分析儀", "Malvern Zetasizer Nano",
-                "量測奈米粒子的粒徑分布、多分散性指數（PDI）與 Zeta 電位。", "assets/instruments/dls-zetasizer.jpg"),
-               ("lyophilizer", "減壓濃縮機（Freeze dryer）", "VirTis BTP-9EGE0X",
-                "以冷凍乾燥（凍乾）方式移除樣品中的水分，分外槽與內槽兩種使用方式。", "assets/instruments/lyophilizer.jpg"),
-               ("centrifuge", "冷凍離心機（Refrigerated Centrifuge）", "Thermo Scientific Heraeus Megafuge 8R",
-                "以離心力分離樣品中不同密度或大小的成分，可控制轉速與溫度。", "assets/instruments/centrifuge.jpg"),
-               ("water-bath", "水浴槽（Water Bath）", "FIRSTEK B206 / YIH DER",
-                "恆溫加熱水槽，本實驗室備有循環式與非循環式兩種。", "assets/instruments/water-bath-circulating.png"),
-               ("orbital-shaker", "軌道式震盪器（Orbital Shaker）", "FIRSTEK S-101",
-                "以軌道式震盪進行培養液混合、染色脫色等需要長時間輕柔搖動的步驟。", "assets/instruments/orbital-shaker.png"),
-               ("dry-bath", "乾浴加熱器（Dry Bath Incubator）", "Major Science MD-02N",
-                "以鋁製加熱槽提供試管樣品定溫孵育，用於酵素反應、核酸相關實驗等恆溫反應。", "assets/instruments/dry-bath-incubator.webp"),
-               ("ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner）", "DELTA DH150H",
-                "以超音波空化作用清洗玻璃器皿、金屬器材等物品，具加熱與定時功能。", "assets/instruments/ultrasonic-cleaner.png"),
-               ("multistirrer", "多點磁力攪拌器（Multi-Position Stirrer）", "VELP MULTISTIRRER Digital 15",
-                "15 個攪拌位置可同時攪拌，轉速 80–1500 rpm 數位控制。", "assets/instruments/multistirrer.png"),
-               ("hot-plate", "加熱攪拌盤（Stirring Hot Plate）", "Corning PC-420D",
-                "可同時加熱與攪拌，使用時需全程有人看顧，嚴禁乾燒。", "assets/instruments/hot-plate-stirrer.png")]
+INSTRUMENTS = [
+    ("分析量測儀器", [
+        ("balance", "分析天平（Analytical Balance）", "METTLER TOLEDO ME204",
+         "四位數精密秤量，是配製溶液、秤量藥品最基本也最關鍵的一步。", "assets/instruments/balance.jpg"),
+        ("ph-meter", "pH meter", "METTLER TOLEDO SevenCompact S220",
+         "量測水溶液的酸鹼值（pH）與離子濃度，使用前須以標準緩衝液校正。", "assets/instruments/ph-meter.jpg"),
+        ("uv-vis", "紫外-可見光分光光度計（UV-Vis）", "Shimadzu UV-1900i Plus",
+         "量測樣品在紫外光與可見光波段的吸收光譜，用於濃度測定與反應動力學。", "assets/instruments/uv-vis.jpg"),
+        ("elisa-reader", "酵素免疫分析儀（ELISA Reader）", "TECAN Spark 10M / Sunrise",
+         "可進行吸收光、全波長螢光與冷光測量，廣泛用於 ELISA 等酵素免疫分析。", "assets/instruments/elisa-reader-spark.png"),
+        ("dls", "動態光散射儀（DLS）與 Zeta 電位分析儀", "Malvern Zetasizer Nano",
+         "量測奈米粒子的粒徑分布、多分散性指數（PDI）與 Zeta 電位。", "assets/instruments/dls-zetasizer.jpg"),
+    ]),
+    ("溫控儀器", [
+        ("water-bath", "水浴槽（Water Bath）", "FIRSTEK B206 / YIH DER",
+         "恆溫加熱水槽，本實驗室備有循環式與非循環式兩種。", "assets/instruments/water-bath-circulating.png"),
+        ("dry-bath", "乾浴加熱器（Dry Bath Incubator）", "Major Science MD-02N",
+         "以鋁製加熱槽提供試管樣品定溫孵育，用於酵素反應、核酸相關實驗等恆溫反應。", "assets/instruments/dry-bath-incubator.webp"),
+        ("hot-plate", "加熱攪拌盤（Stirring Hot Plate）", "Corning PC-420D",
+         "可同時加熱與攪拌，使用時需全程有人看顧，嚴禁乾燒。", "assets/instruments/hot-plate-stirrer.png"),
+    ]),
+    ("混合與攪拌儀器", [
+        ("orbital-shaker", "軌道式震盪器（Orbital Shaker）", "FIRSTEK S-101",
+         "以軌道式震盪進行培養液混合、染色脫色等需要長時間輕柔搖動的步驟。", "assets/instruments/orbital-shaker.png"),
+        ("multistirrer", "多點磁力攪拌器（Multi-Position Stirrer）", "VELP MULTISTIRRER Digital 15",
+         "15 個攪拌位置可同時攪拌，轉速 80–1500 rpm 數位控制。", "assets/instruments/multistirrer.png"),
+    ]),
+    ("樣品前處理儀器", [
+        ("centrifuge", "冷凍離心機（Refrigerated Centrifuge）", "Thermo Scientific Heraeus Megafuge 8R",
+         "以離心力分離樣品中不同密度或大小的成分，可控制轉速與溫度。", "assets/instruments/centrifuge.jpg"),
+        ("lyophilizer", "減壓濃縮機（Freeze dryer）", "VirTis BTP-9EGE0X",
+         "以冷凍乾燥（凍乾）方式移除樣品中的水分，分外槽與內槽兩種使用方式。", "assets/instruments/lyophilizer.jpg"),
+        ("ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner）", "DELTA DH150H",
+         "以超音波空化作用清洗玻璃器皿、金屬器材等物品，具加熱與定時功能。", "assets/instruments/ultrasonic-cleaner.png"),
+    ]),
+]
 
 mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注意事項。",
-      '<ul class="list inst">' + "".join(
-          f'<li><a class="inst-img" href="instruments/{k}.html"><img src="../{img}" alt="{t}"></a>'
-          f'<div><p class="label">{m}</p><h3><a href="instruments/{k}.html">{t}</a></h3><p class="muted">{d}</p>'
-          f'<p><a href="instruments/{k}.html">原理與操作影片 →</a></p></div></li>' for k, t, m, d, img in INSTRUMENTS) + '</ul>' +
+      "".join(
+          f'<h2>{cat}</h2><ul class="list inst">' + "".join(
+              f'<li><a class="inst-img" href="instruments/{k}.html"><img src="../{img}" alt="{t}"></a>'
+              f'<div><p class="label">{m}</p><h3><a href="instruments/{k}.html">{t}</a></h3><p class="muted">{d}</p>'
+              f'<p><a href="instruments/{k}.html">原理與操作影片 →</a></p></div></li>' for k, t, m, d, img in items) + '</ul>'
+          for cat, items in INSTRUMENTS) +
       f'<p class="muted small">更多儀器將陸續加入。{PH}</p>')
 
 mpage("instruments/balance", "分析天平（Analytical Balance）", "以 METTLER TOLEDO ME204 進行精密秤量。",
