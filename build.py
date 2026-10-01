@@ -604,7 +604,9 @@ INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLE
                ("water-bath", "水浴槽（Water Bath）", "FIRSTEK B206 / YIH DER",
                 "恆溫加熱水槽，本實驗室備有循環式與非循環式兩種。", "assets/instruments/water-bath-circulating.png"),
                ("orbital-shaker", "軌道式震盪器（Orbital Shaker）", "FIRSTEK S-101",
-                "以軌道式震盪進行培養液混合、染色脫色等需要長時間輕柔搖動的步驟。", "assets/instruments/orbital-shaker.png")]
+                "以軌道式震盪進行培養液混合、染色脫色等需要長時間輕柔搖動的步驟。", "assets/instruments/orbital-shaker.png"),
+               ("dry-bath", "乾浴加熱器（Dry Bath Incubator）", "Major Science MD-02N",
+                "以鋁製加熱槽提供試管樣品定溫孵育，用於酵素反應、核酸相關實驗等恆溫反應。", "assets/instruments/dry-bath-incubator.webp")]
 
 mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注意事項。",
       '<ul class="list inst">' + "".join(
@@ -822,6 +824,23 @@ mpage("instruments/orbital-shaker", "軌道式震盪器（Orbital Shaker）", "�
 </ul>
 <h2>操作方式</h2>
 <p>面板上的 <strong>RPM</strong> 控制震盪速度，<strong>TIMER</strong> 控制震盪時間。</p>
+<h2>管理者</h2>
+<p>本實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/dry-bath", "乾浴加熱器（Dry Bath Incubator）", "以 Major Science MD-02N 雙槽鋁製加熱塊提供試管樣品定溫孵育。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<figure class="hero"><img src="../../assets/instruments/dry-bath-incubator.webp" alt="Major Science MD-02N 乾浴加熱器"></figure>
+<p><strong>型號：</strong>Major Science Genius Dry Bath Incubator MD-02N（雙槽）<br><strong>位置：</strong>本實驗室內</p>
+<h2>用途</h2>
+<p>以鋁合金加熱塊提供試管樣品定溫孵育與加熱，可用於酵素反應、核酸相關實驗等恆溫反應。雙槽各 20 孔，適用 1.5 mL 微量離心管，溫度範圍約室溫 +5°C 至 150°C。</p>
+<h2>操作方式</h2>
+<p>面板上的 <strong>▲／▼</strong> 設定溫度，<strong>Timer</strong> 設定孵育時間（1–999 分鐘或連續），<strong>Start/Stop</strong> 啟動或停止加熱。</p>
+<h3>注意事項</h3>
+<ul class="bullets">
+<li>僅限使用與加熱孔徑相容的試管（1.5 mL），避免硬塞不合尺寸的管子。</li>
+<li>加熱槽即使停止加熱仍可能維持高溫，取放時避免直接用手觸碰金屬塊。</li>
+<li>加熱槽表面有 PTFE 塗層，避免用鑷子、刀片等尖銳物刮傷或撬動。</li>
+</ul>
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
 
