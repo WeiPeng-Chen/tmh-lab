@@ -909,7 +909,7 @@ mpage("instruments/multistirrer", "多點磁力攪拌器（Multi-Position Stirre
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
 
-mpage("instruments/hot-plate", "加熱攪拌盤（Stirring Hot Plate）", "以 Corning PC-420D 同時加熱與攪拌樣品。",
+mpage("instruments/hot-plate", "加熱攪拌盤（Stirring Hot Plate）", "可同時加熱並攪拌。",
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <figure class="hero"><img src="../../assets/instruments/hot-plate-stirrer.png" alt="Corning PC-420D 加熱攪拌盤"></figure>
 <p><strong>型號：</strong>Corning PC-420D<br><strong>位置：</strong>本實驗室內</p>
