@@ -45,6 +45,7 @@ NAV = [
 MEMBERS = {"id": "members", "label": "成員專區", "children": [
     ("儀器設備", "members/instruments.html"),
     ("軟體與工具", "members/software-tools.html"),
+    ("研究方法", "members/research-methods.html"),
     ("公用文件", "members/shared-documents.html")]}
 
 LOCK = '<svg class="lock" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="1.5"/><path d="M5 7V5a3 3 0 016 0v2"/></svg>'
@@ -936,6 +937,23 @@ SOFTWARE = [
 ]
 mpage("software-tools", "軟體與工具", "實驗室常用的分析與繪圖軟體。",
       entries([(c, f'<a href="{u}" target="_blank" rel="noopener">{t}</a>' if u else t, d) for c, t, u, d in SOFTWARE], wide=True))
+
+EXP_DESIGN = [
+    ("實驗設計", 'Krzywinski &amp; Altman. <a href="https://doi.org/10.1038/nmeth.2974" target="_blank" rel="noopener">Points of significance: Designing comparative experiments</a>. <i>Nature Methods</i> 11, 597–598 (2014).',
+     "用一頁篇幅講清楚如何設計對照組、分組與配對，減少干擾變因對結果的影響。同系列在 <a href=\"https://mk.bcgsc.ca/points-of-significance/\" target=\"_blank\" rel=\"noopener\">Points of Significance</a> 還有 50 多篇類似的短文，涵蓋重複數、檢定力、取樣方法等主題，值得收藏慢慢讀。"),
+    ("實驗設計", 'Lazic. <a href="https://doi.org/10.1186/1471-2202-11-5" target="_blank" rel="noopener">The problem of pseudoreplication in neuroscientific studies: is it affecting your analysis?</a> <i>BMC Neuroscience</i> 11, 5 (2010).',
+     "說明「假重複（pseudoreplication）」：把同一隻動物、同一個培養皿的多次量測當成獨立樣本數，會嚴重高估統計檢定力、誇大顯著性。設計實驗、決定 n 值之前建議先讀過。"),
+]
+PAPER_READING = [
+    ("文獻閱讀", 'Carey, Steiner &amp; Petri. <a href="https://doi.org/10.1371/journal.pcbi.1008032" target="_blank" rel="noopener">Ten simple rules for reading a scientific paper</a>. <i>PLOS Computational Biology</i> 16(7), e1008032 (2020).',
+     "教怎麼依閱讀目的調整讀法（先抓重點 vs. 逐字精讀），以及如何帶著批判角度看圖表、方法與結論，而不是照單全收。"),
+    ("文獻閱讀", 'Pain. <a href="https://www.science.org/content/article/how-seriously-read-scientific-paper" target="_blank" rel="noopener">How to (seriously) read a scientific paper</a>. <i>Science Careers</i> (2016).',
+     "訪問多位不同資歷的研究者，分享他們實際閱讀論文的習慣與順序（例如先看圖、再看方法是否合理有做對照組），很適合剛開始讀文獻的新手。"),
+]
+mpage("research-methods", "研究方法", "怎麼設計一個好的實驗、怎麼選擇與閱讀好的 reference paper。",
+      "<h2>如何設計一個好的實驗</h2>" + entries(EXP_DESIGN, wide=True) +
+      "<h2>如何選擇與閱讀 Reference Paper</h2>" + entries(PAPER_READING, wide=True))
+
 mpage("shared-documents", "公用文件", "實驗室成員共用的文件、範本與表單。",
       '<p>文件放在實驗室的雲端硬碟，請以被授權的帳號登入後開啟。</p><p><a class="btn" href="https://drive.google.com/drive/folders/13rax2xm57rDNdb7uApnQfdFKuc0ICXjw?usp=drive_link" target="_blank" rel="noopener">開啟公用文件資料夾</a></p>')
 
