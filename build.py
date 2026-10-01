@@ -798,7 +798,7 @@ mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有
 <tr><td>顯示</td><td>PV / SV：實際溫度／設定溫度</td><td>PV / SV：實際溫度／設定溫度</td></tr>
 <tr><td>溫度範圍</td><td>約室溫+5～100°C</td><td>依型號約室溫+5～70/100°C</td></tr>
 <tr><td>主要用途</td><td>需要較均勻、穩定的恆溫</td><td>一般加熱、保溫</td></tr>
-<tr><td>水槽容量</td><td>B206-T1 約 10 L、T2 約 20 L</td><td>系列有 10/20 L</td></tr>
+<tr><td>水槽容量</td><td>20 L</td><td>10 L</td></tr>
 <tr><td>水流</td><td>水會在槽內循環</td><td>靠自然對流</td></tr>
 </table>
 <h2>操作方式</h2>
