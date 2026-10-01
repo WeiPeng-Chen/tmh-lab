@@ -720,7 +720,7 @@ mpage("instruments/elisa-reader", "酵素免疫分析儀（ELISA Reader）", "�
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
 <div class="hero-row">
 <figure><img src="../../assets/instruments/elisa-reader-spark.png" alt="TECAN Spark 10M 酵素免疫分析儀"><figcaption><strong>TECAN Spark 10M</strong><br>守仁樓 717 室（本實驗室）</figcaption></figure>
-<figure><img src="../../assets/instruments/elisa-reader-sunrise.png" alt="TECAN Sunrise 酵素免疫分析儀"><figcaption><strong>TECAN Sunrise</strong><br>守仁樓 B1F B02 室</figcaption></figure>
+<figure><img src="../../assets/instruments/elisa-reader-sunrise.webp" alt="TECAN Sunrise 酵素免疫分析儀"><figcaption><strong>TECAN Sunrise</strong><br>守仁樓 B1F B02 室</figcaption></figure>
 </div>
 <p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
 <h2>使用目的</h2>
