@@ -815,7 +815,7 @@ mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有
 <li>長按 <strong>ON</strong> 開機。</li>
 <li>按 <strong>SET</strong> 進入溫度設定模式。</li>
 <li>按 <strong>←</strong> 切換要調整的位數（例如設定溫度要從 37.0°C 改成 47.0°C，先按 ← 切到十位數）。</li>
-<li>按 <strong>↑／↓</strong> 調整該位數的數值，完成後再按一次 <strong>SET</strong> 確認。</li>
+<li>按 <strong>↑／↓</strong> 調整該位數的數值。</li>
 </ol>
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
