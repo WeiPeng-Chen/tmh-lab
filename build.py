@@ -788,7 +788,6 @@ mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有
 <figure><img src="../../assets/instruments/water-bath-circulating.png" alt="FIRSTEK B206 內部循環式水浴槽"><figcaption><strong>FIRSTEK B206</strong>（循環式）<br>長時間、較高溫的恆溫加熱。</figcaption></figure>
 <figure><img src="../../assets/instruments/water-bath-static.webp" alt="YIH DER 非攪拌式水浴槽"><figcaption><strong>YIH DER</strong>（非循環式）<br>加熱細胞實驗用的溶液，維持 37°C。</figcaption></figure>
 </div>
-<p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
 <h3>兩者差異</h3>
 <table class="cmp">
 <tr><th>項目</th><th>FIRSTEK B206（循環式）</th><th>YIH DER（非循環式）</th></tr>
