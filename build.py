@@ -606,7 +606,9 @@ INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLE
                ("orbital-shaker", "軌道式震盪器（Orbital Shaker）", "FIRSTEK S-101",
                 "以軌道式震盪進行培養液混合、染色脫色等需要長時間輕柔搖動的步驟。", "assets/instruments/orbital-shaker.png"),
                ("dry-bath", "乾浴加熱器（Dry Bath Incubator）", "Major Science MD-02N",
-                "以鋁製加熱槽提供試管樣品定溫孵育，用於酵素反應、核酸相關實驗等恆溫反應。", "assets/instruments/dry-bath-incubator.webp")]
+                "以鋁製加熱槽提供試管樣品定溫孵育，用於酵素反應、核酸相關實驗等恆溫反應。", "assets/instruments/dry-bath-incubator.webp"),
+               ("ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner）", "DELTA DH150H",
+                "以超音波空化作用清洗玻璃器皿、金屬器材等物品，具加熱與定時功能。", "assets/instruments/ultrasonic-cleaner.png")]
 
 mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注意事項。",
       '<ul class="list inst">' + "".join(
@@ -840,6 +842,26 @@ mpage("instruments/dry-bath", "乾浴加熱器（Dry Bath Incubator）", "以 Ma
 <li>僅限使用與加熱孔徑相容的試管（1.5 mL），避免硬塞不合尺寸的管子。</li>
 <li>加熱槽即使停止加熱仍可能維持高溫，取放時避免直接用手觸碰金屬塊。</li>
 <li>加熱槽表面有 PTFE 塗層，避免用鑷子、刀片等尖銳物刮傷或撬動。</li>
+</ul>
+<h2>管理者</h2>
+<p>本實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner）", "以 DELTA DH150H 清洗玻璃器皿與金屬器材。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<figure class="hero"><img src="../../assets/instruments/ultrasonic-cleaner.png" alt="DELTA DH150H 超音波洗淨機"></figure>
+<p><strong>型號：</strong>DELTA Ultrasonic Cleaner DH150H（加熱型）<br><strong>位置：</strong>本實驗室內</p>
+<h2>原理與用途</h2>
+<p>利用超音波在液體中產生的空化作用（cavitation）清洗玻璃器皿、金屬器材等物品；面板上的 SET TIME／SET TEMP／TANK TEMP／HEAT ON 可同時設定清洗時間與加熱溫度，不只是單純的超音波震盪槽。</p>
+<figure class="hero"><img src="../../assets/instruments/ultrasonic-cleaner-accessories.webp" alt="漏斗固定架與配重環"></figure>
+<p class="muted small">漏斗固定架（Funnel Support，暱稱「屁墊」，左）與配重環（右）：清洗瓶類器皿時用來墊高、固定，配重環並可增加器皿重量，避免清洗或水浴時器皿漂浮、翻倒或移動。</p>
+<h2>操作方式</h2>
+<h3>注意事項</h3>
+<ul class="bullets">
+<li>操作前確認槽內有足夠液體，嚴禁無水運轉。</li>
+<li>清洗物品請放在清洗籃內，或以漏斗固定架／配重環墊著，避免直接接觸槽底。</li>
+<li>不可直接將易燃有機溶劑倒入槽中。</li>
+<li>使用加熱功能時，注意液體溫度，避免燙傷。</li>
+<li>清洗完成後先關閉超音波與加熱功能，待設備冷卻後再排水——關掉超音波不代表可以立刻排水或觸碰槽體。</li>
 </ul>
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
