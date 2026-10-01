@@ -43,9 +43,9 @@ NAV = [
 ]
 
 MEMBERS = {"id": "members", "label": "成員專區", "children": [
+    ("研究方法", "members/research-methods.html"),
     ("儀器設備", "members/instruments.html"),
     ("軟體與工具", "members/software-tools.html"),
-    ("研究方法", "members/research-methods.html"),
     ("公用文件", "members/shared-documents.html")]}
 
 LOCK = '<svg class="lock" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="1.5"/><path d="M5 7V5a3 3 0 016 0v2"/></svg>'
@@ -950,9 +950,14 @@ PAPER_READING = [
     ("文獻閱讀", 'Pain. <a href="https://www.science.org/content/article/how-seriously-read-scientific-paper" target="_blank" rel="noopener">How to (seriously) read a scientific paper</a>. <i>Science Careers</i> (2016).',
      "訪問多位不同資歷的研究者，分享他們實際閱讀論文的習慣與順序（例如先看圖、再看方法是否合理有做對照組），很適合剛開始讀文獻的新手。"),
 ]
-mpage("research-methods", "研究方法", "怎麼設計一個好的實驗、怎麼選擇與閱讀好的 reference paper。",
+FAILURE = [
+    ("研究心態", 'Schwartz. <a href="https://doi.org/10.1242/jcs.033340" target="_blank" rel="noopener">The importance of stupidity in scientific research</a>. <i>Journal of Cell Science</i> 121, 1771 (2008).',
+     "做研究常常讓人覺得自己很笨——因為你一直站在已知的邊界往外摸索，這種「不知道」本身就是研究的常態，不是失敗。卡關、碰壁都是過程的一部分，重點是從中學到東西，繼續往前走。"),
+]
+mpage("research-methods", "研究方法", "怎麼選擇與閱讀好的 reference paper、怎麼設計一個好的實驗。",
+      "<h2>如何選擇與閱讀 Reference Paper</h2>" + entries(PAPER_READING, wide=True) +
       "<h2>如何設計一個好的實驗</h2>" + entries(EXP_DESIGN, wide=True) +
-      "<h2>如何選擇與閱讀 Reference Paper</h2>" + entries(PAPER_READING, wide=True))
+      "<h2>假如失敗了，也不要氣餒！</h2>" + entries(FAILURE, wide=True))
 
 mpage("shared-documents", "公用文件", "實驗室成員共用的文件、範本與表單。",
       '<p>文件放在實驗室的雲端硬碟，請以被授權的帳號登入後開啟。</p><p><a class="btn" href="https://drive.google.com/drive/folders/13rax2xm57rDNdb7uApnQfdFKuc0ICXjw?usp=drive_link" target="_blank" rel="noopener">開啟公用文件資料夾</a></p>')
