@@ -151,6 +151,10 @@ h2[id] { scroll-margin-top: 24px; }
 .list.inst h3 a:hover { text-decoration: underline; text-decoration-color: var(--pink); }
 .hero { display: flex; align-items: center; justify-content: center; margin: var(--space-5) 0 0; border: 1px solid var(--hairline); border-radius: var(--radius-lg); overflow: hidden; max-width: 360px; max-height: 260px; background: var(--white); }
 .hero img { display: block; max-width: 100%; max-height: 260px; width: auto; height: auto; object-fit: contain; }
+.hero-row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-5); margin-top: var(--space-5); max-width: 680px; }
+.hero-row figure { margin: 0; display: flex; flex-direction: column; border: 1px solid var(--hairline); border-radius: var(--radius-lg); overflow: hidden; background: var(--white); }
+.hero-row img { display: block; width: 100%; height: 180px; object-fit: contain; background: var(--white); }
+.hero-row figcaption { padding: var(--space-3); border-top: 1px solid var(--hairline); font-size: 14px; line-height: 22px; color: var(--text-muted); }
 .videos { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-5); margin-top: var(--space-5); }
 .gallery { display: flex; flex-direction: column; gap: var(--space-6); margin-top: var(--space-5); }
 .gallery figure.event { margin: 0; }
@@ -173,6 +177,10 @@ h2[id] { scroll-margin-top: 24px; }
 .bullets li:first-child { margin-top: 0; }
 .warn { border: 1px solid #c81e3a; border-left-width: 4px; background: #fdecee; border-radius: var(--radius-md); padding: var(--space-4); margin-top: var(--space-5); max-width: 680px; }
 .warn p { margin: 0; color: #8a0f26; font-size: 16px; line-height: 26px; }
+.cmp { width: 100%; max-width: 680px; margin-top: var(--space-5); border-collapse: collapse; font-size: 15px; line-height: 24px; }
+.cmp th, .cmp td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--hairline); }
+.cmp th { border-top: 2px solid var(--navy); border-bottom-width: 1px; color: var(--navy); font-weight: 700; }
+.cmp td:first-child, .cmp th:first-child { padding-left: 0; color: var(--text-muted); white-space: nowrap; }
 
 h3 + p { margin-top: var(--space-2); }
 
@@ -198,6 +206,8 @@ h3 + p { margin-top: var(--space-2); }
   .footer { padding: var(--space-5) var(--space-4); }
   .list.inst > li { grid-template-columns: 1fr; gap: var(--space-3); }
   .videos { grid-template-columns: 1fr; }
+  .hero-row { grid-template-columns: 1fr; }
+  .cmp { display: block; overflow-x: auto; }
   .gallery .event-photos { grid-template-columns: 1fr !important; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

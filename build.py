@@ -600,7 +600,9 @@ INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLE
                ("lyophilizer", "減壓濃縮機（Freeze dryer）", "VirTis BTP-9EGE0X",
                 "以冷凍乾燥（凍乾）方式移除樣品中的水分，分外槽與內槽兩種使用方式。", "assets/instruments/lyophilizer.jpg"),
                ("centrifuge", "冷凍離心機（Refrigerated Centrifuge）", "Thermo Scientific Heraeus Megafuge 8R",
-                "以離心力分離樣品中不同密度或大小的成分，可控制轉速與溫度。", "assets/instruments/centrifuge.jpg")]
+                "以離心力分離樣品中不同密度或大小的成分，可控制轉速與溫度。", "assets/instruments/centrifuge.jpg"),
+               ("water-bath", "水浴槽（Water Bath）", "FIRSTEK B206 / YIH DER",
+                "恆溫加熱水槽，本實驗室備有循環式與非循環式兩種。", "assets/instruments/water-bath-circulating.png")]
 
 mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注意事項。",
       '<ul class="list inst">' + "".join(
@@ -775,6 +777,35 @@ mpage("instruments/centrifuge", "冷凍離心機（Refrigerated Centrifuge）", 
 {empty("開機順序、轉速與溫度設定、使用後清潔的步驟，將於整理後補上。")}
 <h2>管理者</h2>
 <p>廖曉偉老師實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/water-bath", "水浴槽（Water Bath）", "本實驗室備有循環式與非循環式兩種恆溫水浴槽。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<p><strong>位置：</strong>本實驗室內</p>
+<h2>原理</h2>
+<p>水浴槽以內部加熱元件搭配 PID 迴路，將水維持在設定溫度；差別在於水有沒有被幫浦持續循環——有循環的水溫分布較均勻，沒有循環則只靠自然對流，槽內各處溫度可能略有落差。</p>
+<h2>用途</h2>
+<div class="hero-row">
+<figure><img src="../../assets/instruments/water-bath-circulating.png" alt="FIRSTEK B206 內部循環式水浴槽"><figcaption><strong>FIRSTEK B206</strong>（循環式）<br>長時間、較高溫的恆溫加熱。</figcaption></figure>
+<figure><img src="../../assets/instruments/water-bath-static.webp" alt="YIH DER 非攪拌式水浴槽"><figcaption><strong>YIH DER</strong>（非循環式）<br>加熱細胞實驗用的溶液，維持 37°C。</figcaption></figure>
+</div>
+<p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
+<h3>兩者差異</h3>
+<table class="cmp">
+<tr><th>項目</th><th>FIRSTEK B206（循環式）</th><th>YIH DER（非循環式）</th></tr>
+<tr><td>類型</td><td>內部循環式水浴槽</td><td>非攪拌式水浴槽</td></tr>
+<tr><td>循環</td><td>有內建循環幫浦</td><td>沒有水循環幫浦</td></tr>
+<tr><td>溫度均勻性</td><td>較好</td><td>相對較差</td></tr>
+<tr><td>控溫</td><td>數位 PID 類型</td><td>微電腦 PID</td></tr>
+<tr><td>顯示</td><td>PV / SV：實際溫度／設定溫度</td><td>PV / SV：實際溫度／設定溫度</td></tr>
+<tr><td>溫度範圍</td><td>約室溫+5～100°C</td><td>依型號約室溫+5～70/100°C</td></tr>
+<tr><td>主要用途</td><td>需要較均勻、穩定的恆溫</td><td>一般加熱、保溫</td></tr>
+<tr><td>水槽容量</td><td>B206-T1 約 10 L、T2 約 20 L</td><td>系列有 10/20 L</td></tr>
+<tr><td>水流</td><td>水會在槽內循環</td><td>靠自然對流</td></tr>
+</table>
+<h2>操作方式</h2>
+{empty("使用規定將於整理後補上。")}
+<h2>管理者</h2>
+<p>本實驗室</p>''', nav_cur="members/instruments.html")
 
 SOFTWARE = [
     ("文獻管理", "Zotero", "https://www.zotero.org/download/", "閱讀論文的好夥伴：整理文獻、做筆記，還能在 Word 裡直接插入引用文獻與產生參考文獻列表。"),
