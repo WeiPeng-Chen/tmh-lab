@@ -608,7 +608,9 @@ INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLE
                ("dry-bath", "乾浴加熱器（Dry Bath Incubator）", "Major Science MD-02N",
                 "以鋁製加熱槽提供試管樣品定溫孵育，用於酵素反應、核酸相關實驗等恆溫反應。", "assets/instruments/dry-bath-incubator.webp"),
                ("ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner）", "DELTA DH150H",
-                "以超音波空化作用清洗玻璃器皿、金屬器材等物品，具加熱與定時功能。", "assets/instruments/ultrasonic-cleaner.png")]
+                "以超音波空化作用清洗玻璃器皿、金屬器材等物品，具加熱與定時功能。", "assets/instruments/ultrasonic-cleaner.png"),
+               ("multistirrer", "多點磁力攪拌器（Multi-Position Stirrer）", "VELP MULTISTIRRER Digital 15",
+                "15 個攪拌位置可同時攪拌，轉速 80–1500 rpm 數位控制。", "assets/instruments/multistirrer.png")]
 
 mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注意事項。",
       '<ul class="list inst">' + "".join(
@@ -871,6 +873,23 @@ mpage("instruments/ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner
 <li>使用加熱功能時，注意液體溫度，避免燙傷。</li>
 <li>清洗完成後先關閉超音波與加熱功能，待設備冷卻後再排水——關掉超音波不代表可以立刻排水或觸碰槽體。</li>
 </ul>
+<h2>管理者</h2>
+<p>本實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/multistirrer", "多點磁力攪拌器（Multi-Position Stirrer）", "以 VELP MULTISTIRRER Digital 15 同時攪拌多份樣品。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<figure class="hero"><img src="../../assets/instruments/multistirrer.png" alt="VELP MULTISTIRRER Digital 15 多點磁力攪拌器"></figure>
+<p><strong>型號：</strong>VELP Scientifica MULTISTIRRER Digital 15（F203A0180）<br><strong>位置：</strong>本實驗室內</p>
+<h2>用途</h2>
+<p>15 個攪拌位置可同時攪拌最多 15 份樣品，轉速 80–1500 rpm 數位控制（每格 10 rpm）；每個位置建議最大容量 250 mL，容器內需放入磁石（magnetic stirring bar）才能攪拌。內建計時器（1–900 分鐘或連續運轉）與定時反轉攪拌功能，適合多組條件相同、需要同步攪拌的實驗（例如多組 overnight 反應）。</p>
+<h2>操作方式</h2>
+<p>轉動面板上的旋鈕即可設定、調整轉速（rpm），螢幕會即時顯示目前轉速。</p>
+<h3>轉速不均時怎麼辦</h3>
+<p>如果發現轉速不穩定或不均，可以把容器墊高，例如用墊片或多孔盤蓋子（下圖）。確切原因還不清楚，但實際測試墊高後轉速就恢復正常。</p>
+<div class="hero-row">
+<figure><img src="../../assets/instruments/multistirrer-shim.png" alt="墊片"><figcaption>墊片</figcaption></figure>
+<figure><img src="../../assets/instruments/multistirrer-plate-lid.webp" alt="多孔盤蓋子"><figcaption>多孔盤蓋子</figcaption></figure>
+</div>
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
 
