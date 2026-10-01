@@ -610,7 +610,9 @@ INSTRUMENTS = [("balance", "分析天平（Analytical Balance）", "METTLER TOLE
                ("ultrasonic-cleaner", "超音波洗淨機（Ultrasonic Cleaner）", "DELTA DH150H",
                 "以超音波空化作用清洗玻璃器皿、金屬器材等物品，具加熱與定時功能。", "assets/instruments/ultrasonic-cleaner.png"),
                ("multistirrer", "多點磁力攪拌器（Multi-Position Stirrer）", "VELP MULTISTIRRER Digital 15",
-                "15 個攪拌位置可同時攪拌，轉速 80–1500 rpm 數位控制。", "assets/instruments/multistirrer.png")]
+                "15 個攪拌位置可同時攪拌，轉速 80–1500 rpm 數位控制。", "assets/instruments/multistirrer.png"),
+               ("hot-plate", "加熱攪拌盤（Stirring Hot Plate）", "Corning PC-420D",
+                "可同時加熱與攪拌，使用時需全程有人看顧，嚴禁乾燒。", "assets/instruments/hot-plate-stirrer.png")]
 
 mpage("instruments", "儀器設備", "共用儀器的原理、操作方式與注意事項。",
       '<ul class="list inst">' + "".join(
@@ -892,6 +894,23 @@ mpage("instruments/multistirrer", "多點磁力攪拌器（Multi-Position Stirre
 <figure><img src="../../assets/instruments/multistirrer-shim.png" alt="墊片"><figcaption>墊片</figcaption></figure>
 <figure><img src="../../assets/instruments/multistirrer-plate-lid.webp" alt="多孔盤蓋子"><figcaption>多孔盤蓋子</figcaption></figure>
 </div>
+<h2>管理者</h2>
+<p>本實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/hot-plate", "加熱攪拌盤（Stirring Hot Plate）", "以 Corning PC-420D 同時加熱與攪拌樣品。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<figure class="hero"><img src="../../assets/instruments/hot-plate-stirrer.png" alt="Corning PC-420D 加熱攪拌盤"></figure>
+<p><strong>型號：</strong>Corning PC-420D<br><strong>位置：</strong>本實驗室內</p>
+<h2>用途</h2>
+<p>可同時加熱與磁力攪拌樣品，面板左右兩個旋鈕分別控制 <strong>攪拌轉速</strong>（約 60–1150 rpm）與 <strong>加熱溫度</strong>（最高可達 550°C）。</p>
+<h2>操作方式</h2>
+<h3>注意事項</h3>
+<ul class="bullets">
+<li>使用完畢務必關閉電源（Heat／Stir 都要關）。</li>
+<li>加熱中與剛關閉後，盤面仍可能高溫，切勿直接觸碰。</li>
+<li>加熱期間人不可離開，需全程在旁看顧。</li>
+<li>容器內務必保持足夠液體，嚴禁乾燒。</li>
+</ul>
 <h2>管理者</h2>
 <p>本實驗室</p>''', nav_cur="members/instruments.html")
 
