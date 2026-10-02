@@ -166,7 +166,7 @@ def video(vid, title, credit):
 
 
 
-# ---- Data (from Prof. Hu's CV, last updated 2022-08) ------------------------------
+# ---- Data (from Prof. Hu's CV, 2026 version) ------------------------------
 EDU = [("1997–2002", "藥劑學 博士", "美國俄亥俄州立大學"),
        ("1991–1993", "藥學 碩士", "國防醫學院 藥學研究所"),
        ("1985–1989", "藥學 學士", "國防醫學院 藥學系")]
@@ -182,9 +182,35 @@ SERVICE = [("2021–2024", "董事", "財團法人醫藥工業技術發展中心
            ("2019–2024", "委員", "衛生福利部 中華藥典編修諮議會與諮詢會、藥品諮議小組、藥物食品分析期刊編輯小組"),
            ("2018–2021", "藥物小組委員", "衛生福利部 罕見疾病及藥物審議會"),
            ("2013–迄今", "審查委員", "科技部（現國家科學及技術委員會）生命科學研究發展司 專題研究計畫")]
+AWARDS = [("2025", "傑出校友", "國防醫學院"),
+          ("2021", "傑出系友", "國防醫學院藥學系系友聯誼會"),
+          ("2020", "陽明景康教師獎", "財團法人中華景康藥學基金會"),
+          ("2020", "學生網路教學評估優良教師", "國立陽明大學醫學院"),
+          ("2019", "教學優良教師（107 學年度）", "陽明大學藥物科學院"),
+          ("2017–2021", "教師學術卓越獎勵", "陽明大學"),
+          ("2017、2018", "Outstanding Reviewer", "Journal of Food and Drug Analysis"),
+          ("2006、2007", "優良導師", "國防醫學院"),
+          ("2004", "優良教師", "國防醫學院"),
+          ("1990", "優良教師", "國防醫學院")]
+COURSES = [("大學部", "藥劑學（一）（二）、生物藥劑學、藥用物理化學", ""),
+           ("研究所", "物理化學、生物藥劑學與藥動學、藥劑學專題、藥劑學研究方法（一）（二）、藥劑學專題討論", "")]
+GRANTS = [("2022–2025", "Innovative Drug-Delivery Platform Technology Based on Novel Maillard Chemistry", "國家科學及技術委員會（三年期）"),
+          ("2019", "一氧化氮釋放性奈米製劑於癌細胞之細胞傳輸與代謝研究", "108 年度振陽計畫"),
+          ("2019–2022", "Novel Albumin-Organosilane Composite Hydrogels: Molecular Pharmaceutical Studies and Innovative Drug Delivery Applications（新穎白蛋白-有機矽烷複合水凝膠：分子藥劑學研究與創新藥物傳輸應用）", "科技部（三年期）"),
+          ("2017–2020", "探討一氧化氮奈米載體釋放系統應用於眼腦血管與神經相關之藥理作用機轉與潛在生物效應：一氧化氮眼部遞送奈米載體之配方、眼部傳輸與藥動學研究", "科技部（三年期）"),
+          ("2016–2019", "Innovative Nano-Coating Technology for Drug Delivery Applications（創新奈米包覆技術於藥物遞送之應用）", "科技部（三年期）"),
+          ("2014–2017", "開發奈米藥物輸送系統以加強特定腦癌之療效（與洪東源、陳仁焜合作）", "衛生福利部第二期癌症研究計畫（國家衛生研究院）"),
+          ("2013–2015", "Study on Silica-based Nitric Oxide Delivering Nanoparticles（一氧化氮之矽奈米遞送系統之研究）", "科技部"),
+          ("2012–2013", "新穎一氧化氮釋放劑 SOD-NO 生物活性之研究", "國科會"),
+          ("2011–2012", "新穎雙效一氧化氮釋放製劑之研發", "國科會"),
+          ("2009–2010", "亞硝硫醇之細胞藥動學與藥效學研究", "國科會"),
+          ("2004–2005", "S-nitrosation kinetics of thiol-containing drugs", "國科會"),
+          ("2003–2004", "Dynamic drug-screening system for antioxidants and nitrosation-modulating agents", "國科會")]
 
 # (year, title, authors, venue, note)
 PUBS = [
+    ("2026", "A quantitative framework for the rational design of long-acting epidural therapeutics",
+     "Teh-Min Hu, Darren Svirskis", "International Journal of Pharmaceutics 704: 127454", "doi:10.1016/j.ijpharm.2026.127454"),
     ("2026", "Nitric oxide-releasing nanoparticles for retinal protection against blue light-induced oxidative and vascular injury",
      "George Hsiao, Hung-Chang Chou, Shih-Jiuan Chiu, Yen-Ju Chan, Tai-Ju Hsu, Yu-Yen Chen, Jaw-Jou Kang, Teh-Min Hu, Yu-Wen Cheng", "ACS Applied Nano Materials", "doi:10.1021/acsanm.6c02509"),
     ("2026", "Solvent-mediated organocatalytic browning of biogenic indoles enables the formation of zwitterionic nanoparticles",
@@ -338,6 +364,7 @@ PAPER_AREAS = {
     "A nano-platform harnessing": ["browning"],
     "Quantitative analysis of macrophage uptake": ["organosilica"],
     "Chemical reactivity of the tryptophan": ["browning"],
+    "A quantitative framework for the rational design": ["pk"],
     "A general biphasic bodyweight model": ["pk"],
     "Co-delivery of nitric oxide and camptothecin": ["no"],
     "Organosilica colloids as nitric oxide carriers": ["no", "organosilica"],
@@ -523,7 +550,7 @@ NAME_ROW = f'''<div class="profile-top">
 </div>
 <img class="photo-img" src="../assets/people/hu-teh-min.jpg" alt="胡德民教授" width="560" height="700">
 </div>
-<nav class="jump" aria-label="本頁目錄"><a href="#biography">簡介</a><a href="#education">學歷</a><a href="#appointments">經歷</a><a href="#service">學術服務</a><a href="#expertise">專長</a><a href="#patents">專利</a><a href="#contact">聯絡方式</a></nav>'''
+<nav class="jump" aria-label="本頁目錄"><a href="#biography">簡介</a><a href="#education">學歷</a><a href="#appointments">經歷</a><a href="#service">學術服務</a><a href="#awards">獎項</a><a href="#expertise">專長</a><a href="#courses">授課</a><a href="#grants">研究計畫</a><a href="#patents">專利</a><a href="#contact">聯絡方式</a></nav>'''
 page("people/principal-investigator.html", "人員", "主持人", None,
      f'''<h2 id="biography">簡介</h2>
 <p>胡德民教授專長為藥劑學，研究聚焦於藥物遞送系統與藥動學。他於 1989 年、1993 年分別取得國防醫學院藥學系學士與藥學研究所碩士學位，並於 2002 年取得美國俄亥俄州立大學藥劑學博士學位。</p>
@@ -535,8 +562,14 @@ page("people/principal-investigator.html", "人員", "主持人", None,
 {entries(POS, wide=True)}
 <h2 id="service">學術服務</h2>
 {entries(SERVICE, wide=True)}
+<h2 id="awards">榮譽獎項</h2>
+{entries(AWARDS, wide=True)}
 <h2 id="expertise">專長</h2>
 <p>藥劑學 · 生物藥劑學 · 藥動學 · 物理藥學</p>
+<h2 id="courses">授課</h2>
+{entries(COURSES, wide=True)}
+<h2 id="grants">研究計畫</h2>
+{entries(GRANTS, wide=True)}
 <h2 id="patents">專利</h2>
 {entries([("美國", "Complex particles for delivering nitric oxide, method of producing the same, and application of the same", "Hu et al. US 10,098,966 B2，2018-10-16。"),
           ("台灣", "遞送一氧化氮之複合粒子、其製備方法及其應用", "發明專利 I637013，專利期限 2018-10-01 至 2037-06-29。")], wide=True)}
