@@ -182,6 +182,14 @@ SERVICE = [("2021–2024", "董事", "財團法人醫藥工業技術發展中心
            ("2019–2024", "委員", "衛生福利部 中華藥典編修諮議會與諮詢會、藥品諮議小組、藥物食品分析期刊編輯小組"),
            ("2018–2021", "藥物小組委員", "衛生福利部 罕見疾病及藥物審議會"),
            ("2013–迄今", "審查委員", "科技部（現國家科學及技術委員會）生命科學研究發展司 專題研究計畫")]
+MEMBERSHIPS = [("2019–迄今", "American Chemical Society", ""),
+               ("2017–迄今", "中華民國生醫材料及藥物制放學會", "永久會員"),
+               ("2007–迄今", "藥師公會全國聯合會（The Union of Pharmacist Association, ROC）", ""),
+               ("2007–迄今", "台北市藥師公會（Taipei Pharmacists’ Association）", ""),
+               ("1993–迄今", "台灣藥學會（The Pharmaceutical Society of Taiwan）", "永久會員"),
+               ("2014–2018", "Royal Society of Chemistry（RSC）", ""),
+               ("2008–2010", "American College of Clinical Pharmacology", ""),
+               ("2001–2010", "American Association of Pharmaceutical Scientists（AAPS）", "")]
 AWARDS = [("2025", "傑出校友", "國防醫學院"),
           ("2021", "傑出系友", "國防醫學院藥學系系友聯誼會"),
           ("2020", "陽明景康教師獎", "財團法人中華景康藥學基金會"),
@@ -597,7 +605,7 @@ NAME_ROW = f'''<div class="profile-top">
 </div>
 <img class="photo-img" src="../assets/people/hu-teh-min.jpg" alt="胡德民教授" width="560" height="700">
 </div>
-<nav class="jump" aria-label="本頁目錄"><a href="#biography">簡介</a><a href="#education">學歷</a><a href="#appointments">經歷</a><a href="#service">學術服務</a><a href="#awards">獎項</a><a href="#expertise">專長</a><a href="#courses">授課</a><a href="#grants">研究計畫</a><a href="#patents">專利</a><a href="#contact">聯絡方式</a></nav>'''
+<nav class="jump" aria-label="本頁目錄"><a href="#biography">簡介</a><a href="#education">學歷</a><a href="#appointments">經歷</a><a href="#service">學術服務</a><a href="#memberships">學會</a><a href="#awards">獎項</a><a href="#expertise">專長</a><a href="#courses">授課</a><a href="#grants">研究計畫</a><a href="#patents">專利</a><a href="#contact">聯絡方式</a></nav>'''
 page("people/principal-investigator.html", "人員", "主持人", None,
      f'''<h2 id="biography">簡介</h2>
 <p>胡德民教授專長為藥劑學，研究聚焦於藥物遞送系統與藥動學。他於 1989 年、1993 年分別取得國防醫學院藥學系學士與藥學研究所碩士學位，並於 2002 年取得美國俄亥俄州立大學藥劑學博士學位。</p>
@@ -609,6 +617,8 @@ page("people/principal-investigator.html", "人員", "主持人", None,
 {entries(POS, wide=True)}
 <h2 id="service">學術服務</h2>
 {entries(SERVICE, wide=True)}
+<h2 id="memberships">學會會員</h2>
+{entries(MEMBERSHIPS, wide=True)}
 <h2 id="awards">榮譽獎項</h2>
 {entries(AWARDS, wide=True)}
 <h2 id="expertise">專長</h2>
