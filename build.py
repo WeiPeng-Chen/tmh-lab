@@ -549,9 +549,8 @@ page("people/principal-investigator.html", "人員", "主持人", None,
      top=NAME_ROW)
 page("people/members.html", "人員", "成員", "實驗室的成員，包含歷屆畢業的學長姊。",
      '<h2>現有成員</h2>' +
-     entries([("碩士生", "謝宜敏 Hsieh, Yi-Min", ""), ("大專生", "陳俞璇 Tan, Yu-Xuan", "")], wide=True) +
+     entries([("碩士生", "謝怡敏 Hsieh, Yi-Min", ""), ("大專生", "陳俞璇 Tan, Yu-Xuan", "")], wide=True) +
      '<h2>歷屆畢業生</h2>' +
-     '<p class="muted small">論文皆由胡德民教授指導（林欣慧為共同指導）。</p>' +
      entries([(y, n, f"{s}<br><em>{t}</em>") for y, n, s, t in ALUMNI], wide=True) +
      '<h2>Welcome to TMH lab family!!!!</h2>' +
      '<div class="gallery">' +
