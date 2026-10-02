@@ -953,6 +953,8 @@ PAPER_READING = [
 FAILURE = [
     ("研究心態", 'Schwartz. <a href="https://doi.org/10.1242/jcs.033340" target="_blank" rel="noopener">The importance of stupidity in scientific research</a>. <i>Journal of Cell Science</i> 121, 1771 (2008).',
      "做研究常常讓人覺得自己很笨——因為你一直站在已知的邊界往外摸索，這種「不知道」本身就是研究的常態，不是失敗。卡關、碰壁都是過程的一部分，重點是從中學到東西，繼續往前走。"),
+    ("研究心態", 'Antes. <a href="https://integrityprogram.org/wp-content/uploads/2024/06/Be-Human-First.pdf" target="_blank" rel="noopener">Be human first, a scientist second</a>. <i>Nature</i> 563, 601 (2018).',
+     "訪談 52 位被同儕公認傑出的科學家，他們都強調「先是人，才是科學家」：實驗室最重要的是互相尊重、信任與和諧。文章寫給主持人，但對學生也很有參考價值——遇到困難或挫折時，主動跟指導老師開口討論是正常、也是被鼓勵的。"),
 ]
 mpage("research-methods", "研究方法", "怎麼選擇與閱讀好的 reference paper、怎麼設計一個好的實驗。",
       "<h2>如何選擇與閱讀 Reference Paper</h2>" + entries(PAPER_READING, wide=True) +
