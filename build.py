@@ -465,6 +465,8 @@ ALUMNI = [
      "硫醇/胺基有機矽奈米粒子之蛋白吸附特性"),
     ("2022", "周宏璋 Chou, Hung-Chang（共同指導）", "臺北醫學大學 藥學系博士班",
      "Pharmacokinetics of Organosilica Nano-Delivery Systems"),
+    ("2021–2022", "黃駿奕", "大學部專題研究",
+     ""),
     ("2021–2022", "柳智偉", "大學部專題研究",
      ""),
     ("2021–2022", "楊裕萌", "大學部專題研究",
@@ -617,6 +619,7 @@ page("people/principal-investigator.html", "人員", "主持人", None,
 {entries(POS, wide=True)}
 <h2 id="service">學術服務</h2>
 {entries(SERVICE, wide=True)}
+<p class="muted">碩博士論文審查委員：國防醫學院、國立臺灣大學、臺北醫學大學、高雄醫學大學、中國醫藥大學、國立臺灣科技大學、長庚大學、國立成功大學、國立清華大學、國立陽明交通大學。</p>
 <h2 id="memberships">學會會員</h2>
 {entries(MEMBERSHIPS, wide=True)}
 <h2 id="awards">榮譽獎項</h2>
