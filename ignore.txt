@@ -3,3 +3,5 @@
 10.1021/j100803a514
 10.1006/bbrc.1993.1414
 Thermochemistry of Potassium
+10.1038/s41551-025-01473-x
+Power laws and dynamics in macroscopic

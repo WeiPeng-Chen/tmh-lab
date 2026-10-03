@@ -228,8 +228,6 @@ PUBS = [
      "Teh-Min Hu, Wan-Yun Lin", "Colloids and Surfaces A: Physicochemical and Engineering Aspects, 139015", "doi:10.1016/j.colsurfa.2025.139015"),
     ("2025", "Albumin-based cryogels as floating platforms for gastroretentive drug delivery applications",
      "Wei-Chin Hsu, Teh-Min Hu", "ACS Omega 10(33): 37639", "doi:10.1021/acsomega.5c04153"),
-    ("2025", "Autonomous devices for drug delivery",
-     "Abdulkadir Sanli, Teh-Min Hu, Leyang Li, Firat Güder", "Nature Biomedical Engineering 9(8): 1182–1183", "doi:10.1038/s41551-025-01473-x"),
     ("2024", "A nano-platform harnessing synergistic amino acid browning for biomedical applications",
      "Teh-Min Hu, Jia-An Liang, Yi-Hua Chiang", "Journal of Materials Chemistry B 12(26): 6410–6423", "doi:10.1039/d4tb00529e"),
     ("2024", "Quantitative analysis of macrophage uptake and retention of fluorescent organosilica nanoparticles: implications for nanoparticle delivery and therapeutics",
