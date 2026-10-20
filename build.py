@@ -830,13 +830,14 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <div class="videos">{video("eCj0cRtJvJg", "High Performance Liquid Chromatography HPLC- UV-VIS Detector Animation", "Biology with Animations")}</div>
 <h2>操作方式</h2>
 <p>下面影片為軟體的最新版本，本實驗室目前使用的軟體版本與影片中的可能有些微不同，請自行評估。</p>
+<p>想看和電腦上完全相同版本的說明：在 Acquisition 或 Control Panel 視窗右上角點「?」（或按 F1），會開啟電腦內建的 OpenLab 說明。</p>
 <div class="videos">{video("CvYzNQAEPWo", "OpenLAB Acquisition and Data Analysis New Version", "Data Analysis Chromatography Skills")}</div>
 <h3>使用規定</h3>
 <ul class="bullets">
 <li>需先在 Google 日曆「陽明藥學_Agilent LC-PDA」預約時段，並依使用時間計價。預約連結請見<a href="../software-tools.html">軟體與工具</a>頁的「HPLC 儀器預約」。</li>
 </ul>
 <h3>參考文件</h3>
-<p><a href="https://www.agilent.com/cs/library/usermanuals/public/G1364E-User.pdf" target="_blank" rel="noopener">Agilent 1260 Infinity II 製備型分液收集器（G1364E）使用手冊（PDF）→</a></p>
+<p><a href="https://chemistry.unt.edu/system/files/openlab_cds_2_5_0_927_quick_reference_sheet.pdf" target="_blank" rel="noopener">OpenLab CDS 快速參考單（PDF，2 頁，2.5 版）→</a> 整理常用名詞與操作流程，適合初學者。</p>
 <p><a href="https://www.youtube.com/playlist?list=PLEPcsxXRqcaNzzFm3lB04H0pD8ZFEi8WZ" target="_blank" rel="noopener">OpenLab CDS 操作短片播放清單（較舊版本）→</a></p>
 ''', nav_cur="members/instruments.html")
 
