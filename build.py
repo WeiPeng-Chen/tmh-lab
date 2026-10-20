@@ -124,7 +124,6 @@ def page(path, section, title, lede, body, top=None, member=False, nav_cur=None)
         f.write(doc)
 
 
-PH = '<span class="tag ph">待補充</span>'
 
 
 def entries(rows, wide=False, lead=True):
@@ -141,10 +140,6 @@ def grid(rows):
 
 def me(s):
     return s.replace(PI, f"<strong>{PI}</strong>").replace("TM Hu", "<strong>TM Hu</strong>")
-
-
-def empty(text):
-    return f'<div class="placeholder"><p>{text} {PH}</p></div>'
 
 
 def photo(items, date, caption, root=""):
@@ -662,8 +657,7 @@ page("people/members.html", "人員", "成員", "實驗室的成員，包含歷�
            "2026-07-04", "於紐西蘭 Hamilton Lake parkrun。", root="../") +
      photo([("assets/people/life/alumni-visit-2026-10-20.jpg", "學姊回娘家聚餐合影")],
            "2026-10-20", "學姊回娘家。", root="../") +
-     '</div>' +
-     empty("更多團體照與生活照將於取得後補上。"))
+     '</div>')
 
 page("news.html", "最新消息", "最新消息", "論文發表、獲獎、演講與實驗室動態。", news_html("../"[:0]))
 
@@ -804,7 +798,6 @@ mpage("instruments/dls", "動態光散射儀（DLS）與 Zeta 電位分析儀", 
 <li>使用時務必填寫實驗本：姓名／實驗室（TMH）／使用時間；使用後檢查沒問題，填上 OK。</li>
 <li>如需提前預約時段，請在紀錄本上寫下姓名與時間，並用螢光筆畫記，標示該時段已被預約。</li>
 </ul>
-{empty("開機順序、樣品準備、量測參數與量測後清潔的步驟，將於整理後補上。")}
 <h2>管理者</h2>
 <p>林宥欣老師實驗室</p>''', nav_cur="members/instruments.html")
 
@@ -840,8 +833,7 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <ul class="bullets">
 <li>需先在 Google 日曆「陽明藥學_Agilent LC-PDA」預約時段，並依使用時間計價。預約連結請見<a href="../software-tools.html">軟體與工具</a>頁的「HPLC 儀器預約」。</li>
 </ul>
-<h2>管理者</h2>
-{empty("管理者資訊將於整理後補上。")}''', nav_cur="members/instruments.html")
+''', nav_cur="members/instruments.html")
 
 mpage("instruments/elisa-reader", "酵素免疫分析儀（ELISA Reader）", "以 TECAN Spark 10M 與 Sunrise 進行吸收光、全波長螢光與冷光測量。",
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
@@ -911,7 +903,6 @@ mpage("instruments/centrifuge", "冷凍離心機（Refrigerated Centrifuge）", 
 <li>使用時務必填寫實驗本：姓名／實驗室（TMH）／使用時間；使用後檢查沒問題，填上 OK。</li>
 <li>使用前務必平衡：離心管需對稱放置，兩側重量相同，避免離心時震動或損壞儀器。</li>
 </ul>
-{empty("開機順序、轉速與溫度設定、使用後清潔的步驟，將於整理後補上。")}
 <h2>管理者</h2>
 <p>廖曉偉老師實驗室</p>''', nav_cur="members/instruments.html")
 

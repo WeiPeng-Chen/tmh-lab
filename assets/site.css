@@ -77,10 +77,6 @@ p { max-width: 680px; margin: var(--space-4) 0 0; }
 .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); margin-top: var(--space-5); }
 .grid3 h3 { margin-top: 0; padding-top: var(--space-3); border-top: 2px solid var(--navy); }
 .grid3 p { font-size: 15px; line-height: 24px; }
-.tag { display: inline-block; font: 600 11px/16px var(--font-sans); letter-spacing: 0.5px; color: var(--navy); background: var(--blue-tint); padding: 2px 8px; border-radius: var(--radius-sm); margin-right: 6px; }
-.tag.ph { background: var(--pink-tint); }
-.placeholder { border: 1px dashed var(--border-strong); border-radius: var(--radius-lg); padding: var(--space-5); margin-top: var(--space-5); color: var(--text-muted); font-size: 15px; }
-.placeholder p { margin: 0; }
 .btn { display: inline-block; margin-top: var(--space-5); padding: 10px 20px; background: var(--navy); color: var(--white); border-radius: var(--radius-md); font-weight: 500; text-decoration: none; }
 .btn:hover { background: var(--purple); }
 .footer { background: var(--navy); color: #d5d8e6; padding: var(--space-6) var(--space-8); font-size: 14px; line-height: 22px; display: flex; justify-content: space-between; gap: var(--space-5); flex-wrap: wrap; }
