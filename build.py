@@ -837,6 +837,7 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <li>需先在 Google 日曆「陽明藥學_Agilent LC-PDA」預約時段，並依使用時間計價。預約連結請見<a href="../software-tools.html">軟體與工具</a>頁的「HPLC 儀器預約」。</li>
 </ul>
 <h3>參考文件</h3>
+<p><a href="https://cos.unt.edu/chemistry/system/files/agilent_infinity_ii_quaternary_system_manual__quick_guide.pdf" target="_blank" rel="noopener">Agilent 1260 Infinity II Quaternary System 手冊與快速入門（PDF，86 頁）→</a> 包含系統簡介、設定與上機的快速入門步驟。</p>
 <p><a href="https://chemistry.unt.edu/system/files/openlab_cds_2_5_0_927_quick_reference_sheet.pdf" target="_blank" rel="noopener">OpenLab CDS 快速參考單（PDF，2 頁，2.5 版）→</a> 整理常用名詞與操作流程，適合初學者。</p>
 <p><a href="https://www.youtube.com/playlist?list=PLEPcsxXRqcaNzzFm3lB04H0pD8ZFEi8WZ" target="_blank" rel="noopener">OpenLab CDS 操作短片播放清單（較舊版本）→</a></p>
 ''', nav_cur="members/instruments.html")
