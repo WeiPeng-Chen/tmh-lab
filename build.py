@@ -693,6 +693,8 @@ INSTRUMENTS = [
          "量測樣品在紫外光與可見光波段的吸收光譜，用於濃度測定與反應動力學。", "assets/instruments/uv-vis.jpg"),
         ("elisa-reader", "酵素免疫分析儀（ELISA Reader）", "TECAN Spark 10M / Sunrise",
          "可進行吸收光、全波長螢光與冷光測量，廣泛用於 ELISA 等酵素免疫分析。", "assets/instruments/elisa-reader-spark.png"),
+        ("hplc", "高效液相層析儀（HPLC）", "Agilent 1260 Infinity II LC System",
+         "以高壓推動樣品通過層析管柱，分離並定量樣品中的成分；需預約並依使用時間計價。", "assets/instruments/hplc.png"),
     ]),
     ("溫控儀器", [
         ("dry-bath", "乾浴加熱器（Dry Bath Incubator）", "Major Science MD-02N",
@@ -822,6 +824,22 @@ mpage("instruments/uv-vis", "紫外-可見光分光光度計（UV-Vis）", "以 
 <p><a href="../../assets/instruments/manuals/uv-vis-manual.pdf" target="_blank" rel="noopener">LabSolutions 操作說明（PDF，掃描版）→</a></p>
 <h2>管理者</h2>
 <p>陳日榮老師實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 Infinity II LC System 分離並定量樣品中的成分。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<figure class="hero"><img src="../../assets/instruments/hplc.png" alt="Agilent 1260 Infinity II LC System 高效液相層析儀"></figure>
+<p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
+<p><strong>型號：</strong>Agilent 1260 Infinity II LC System<br><strong>位置：</strong>守仁樓 717 室</p>
+<h2>原理</h2>
+<p>樣品注入後，由幫浦以高壓推動的移動相帶著通過層析管柱。樣品中不同成分與管柱填充物（固定相）的作用力不同，在管柱中前進的速度也不同，因此依序被分離；偵測器（常見的是紫外-可見光吸收偵測器）再依時間記錄訊號，畫出<strong>層析圖</strong>，依滯留時間辨識成分、依波峰面積進行定量。</p>
+<div class="videos">{video("eCj0cRtJvJg", "High Performance Liquid Chromatography HPLC- UV-VIS Detector Animation", "Biology with Animations")}</div>
+<h2>操作方式</h2>
+<h3>使用規定</h3>
+<ul class="bullets">
+<li>需先在 Google 日曆「陽明藥學_Agilent LC-PDA」預約時段，並依使用時間計價。預約連結請見<a href="../software-tools.html">軟體與工具</a>頁的「HPLC 儀器預約」。</li>
+</ul>
+<h2>管理者</h2>
+{empty("管理者資訊將於整理後補上。")}''', nav_cur="members/instruments.html")
 
 mpage("instruments/elisa-reader", "酵素免疫分析儀（ELISA Reader）", "以 TECAN Spark 10M 與 Sunrise 進行吸收光、全波長螢光與冷光測量。",
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
