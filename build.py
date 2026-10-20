@@ -829,10 +829,15 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <p>樣品注入後，由幫浦以高壓推動的移動相帶著通過層析管柱。樣品中不同成分與管柱填充物（固定相）的作用力不同，在管柱中前進的速度也不同，因此依序被分離；偵測器（常見的是紫外-可見光吸收偵測器）再依時間記錄訊號，畫出<strong>層析圖</strong>，依滯留時間辨識成分、依波峰面積進行定量。</p>
 <div class="videos">{video("eCj0cRtJvJg", "High Performance Liquid Chromatography HPLC- UV-VIS Detector Animation", "Biology with Animations")}</div>
 <h2>操作方式</h2>
+<p>下面影片為軟體的最新版本，本實驗室目前使用的軟體版本與影片中的可能有些微不同，請自行評估。</p>
+<div class="videos">{video("CvYzNQAEPWo", "OpenLAB Acquisition and Data Analysis New Version", "Data Analysis Chromatography Skills")}</div>
 <h3>使用規定</h3>
 <ul class="bullets">
 <li>需先在 Google 日曆「陽明藥學_Agilent LC-PDA」預約時段，並依使用時間計價。預約連結請見<a href="../software-tools.html">軟體與工具</a>頁的「HPLC 儀器預約」。</li>
 </ul>
+<h3>參考文件</h3>
+<p><a href="https://www.agilent.com/cs/library/usermanuals/public/G1364E-User.pdf" target="_blank" rel="noopener">Agilent 1260 Infinity II 製備型分液收集器（G1364E）使用手冊（PDF）→</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLEPcsxXRqcaNzzFm3lB04H0pD8ZFEi8WZ" target="_blank" rel="noopener">OpenLab CDS 操作短片播放清單（較舊版本）→</a></p>
 ''', nav_cur="members/instruments.html")
 
 mpage("instruments/elisa-reader", "酵素免疫分析儀（ELISA Reader）", "以 TECAN Spark 10M 與 Sunrise 進行吸收光、全波長螢光與冷光測量。",
