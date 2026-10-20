@@ -683,6 +683,8 @@ INSTRUMENTS = [
          "量測水溶液的酸鹼值（pH）與離子濃度，使用前須以標準緩衝液校正。", "assets/instruments/ph-meter.jpg"),
         ("balance", "分析天平（Analytical Balance）", "METTLER TOLEDO ME204",
          "四位數精密秤量，是配製溶液、秤量藥品最基本也最關鍵的一步。", "assets/instruments/balance.jpg"),
+        ("texture-analyzer", "質構儀（Texture Analyzer）", "Brookfield CT3",
+         "以探頭對樣品施加壓縮或拉伸，量測力與位移，評估材料的質地與機械性質。", "assets/instruments/texture-analyzer.png"),
         ("dls", "動態光散射儀（DLS）與 Zeta 電位分析儀", "Malvern Zetasizer Nano",
          "量測奈米粒子的粒徑分布、多分散性指數（PDI）與 Zeta 電位。", "assets/instruments/dls-zetasizer.jpg"),
         ("uv-vis", "紫外-可見光分光光度計（UV-Vis）", "Shimadzu UV-1900i Plus",
@@ -819,6 +821,22 @@ mpage("instruments/uv-vis", "紫外-可見光分光光度計（UV-Vis）", "以 
 <p><a href="../../assets/instruments/manuals/uv-vis-manual.pdf" target="_blank" rel="noopener">LabSolutions 操作說明（PDF，掃描版）→</a></p>
 <h2>管理者</h2>
 <p>陳日榮老師實驗室</p>''', nav_cur="members/instruments.html")
+
+mpage("instruments/texture-analyzer", "質構儀（Texture Analyzer）", "以 Brookfield CT3 量測樣品的質地與機械性質。",
+      f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
+<figure class="hero"><img src="../../assets/instruments/texture-analyzer.png" alt="Brookfield CT3 Texture Analyzer 質構儀"></figure>
+<p class="muted small">圖片為儀器產品照片，實際型號請以實驗室的儀器為準。</p>
+<p><strong>型號：</strong>Brookfield CT3 Texture Analyzer<br><strong>位置：</strong>守仁樓 717 室</p>
+<h2>用途</h2>
+<p>以探頭對樣品施加壓縮或拉伸，記錄力與位移的變化，用來評估水凝膠等材料的質地與機械性質。測試條件與數據輸出透過 Texture Pro CT 軟體操作。</p>
+<h2>操作方式</h2>
+<h3>使用手冊</h3>
+<p><a href="https://docs.google.com/presentation/d/1qqNyymBkBVhhwEfdO0Wrjf8LuyLd5bQG/edit?usp=sharing" target="_blank" rel="noopener">CT3 質構儀操作（2025 版，Google 簡報）→</a></p>
+<p><a href="https://docs.google.com/presentation/d/1WdYAUJW7eqxHFFa7Z1cOHkzkpt-xNU9k/edit?usp=sharing" target="_blank" rel="noopener">質構儀操作（2023 版，Google 簡報）→</a></p>
+<h3>附件</h3>
+<p><a href="../../assets/instruments/manuals/ct3-manual.pdf" target="_blank" rel="noopener">CT3 操作手冊（Brookfield，PDF，64 頁）→</a></p>
+<p><a href="../../assets/instruments/manuals/texture-pro-ct-manual.pdf" target="_blank" rel="noopener">Texture Pro CT 軟體操作手冊（PDF，34 頁）→</a></p>
+<p><a href="../../assets/instruments/manuals/ct3-catalog-zh.pdf" target="_blank" rel="noopener">CT3 產品型錄（繁體中文，PDF）→</a></p>''', nav_cur="members/instruments.html")
 
 mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 Infinity II LC System 分離並定量樣品中的成分。",
       f'''<p class="small"><a href="../instruments.html">← 儀器設備</a></p>
