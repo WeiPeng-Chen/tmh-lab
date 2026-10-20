@@ -660,6 +660,8 @@ page("people/members.html", "人員", "成員", "實驗室的成員，包含歷�
            "2026-04 – 2026-06", "赴紐西蘭奧克蘭大學藥學系 Darren Svirskis 教授實驗室進行三個月研究交流。", root="../") +
      photo([("assets/people/life/hamilton-lake-parkrun-2026.jpg", "於紐西蘭 Hamilton Lake parkrun 合影")],
            "2026-07-04", "於紐西蘭 Hamilton Lake parkrun。", root="../") +
+     photo([("assets/people/life/alumni-visit-2026-10-20.jpg", "學姊回娘家聚餐合影")],
+           "2026-10-20", "學姊回娘家。", root="../") +
      '</div>' +
      empty("更多團體照與生活照將於取得後補上。"))
 
