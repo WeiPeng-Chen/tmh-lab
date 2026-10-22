@@ -849,26 +849,27 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <h2>操作方式</h2>
 <h3>事前準備</h3>
 <ol class="bullets">
-<li>移動相加入 0.025%（v/v）甲酸（formic acid, FA）後，以濾膜抽氣過濾。水相通常用 MilliQ 水，但不一定很乾淨，有時會看到微小的棉絮狀雜質，所以一定要過濾。</li>
-<li>LC-MS 等級（LC-MS grade）的溶劑不需要過濾。</li>
+<li>移動相加入 0.025%（v/v）甲酸（FA），用濾膜抽氣過濾。</li>
+<li>水相（MilliQ 水）有時會有微小棉絮，一定要過濾。</li>
+<li>LC-MS 等級溶劑不用過濾。</li>
 </ol>
-<p class="muted">＊為什麼要在移動相加入 FA：甲酸讓移動相呈弱酸性，使樣品中的酸性或鹼性成分維持穩定的解離狀態，並抑制管柱填充物表面矽醇基的解離，讓滯留時間更穩定、波峰更尖銳；若接質譜儀，甲酸也提供質子，有助於正離子模式的游離。</p>
+<p class="muted">＊加 FA 的原因：甲酸讓移動相呈弱酸性，使滯留時間穩定、波峰尖銳；接質譜儀時也有助於樣品游離。</p>
 <h3>快速通關 SOP</h3>
 <ol class="bullets">
-<li>儀器與電腦開機。</li>
-<li>更換移動相：
+<li>開啟儀器與電腦。</li>
+<li>更換移動相（與上一瓶相同就跳過）：
 <ol class="bullets">
-<li>先確認上一瓶移動相和這次要用的是否相同；相同就不用更換。</li>
-<li>不同的話，逆時針打開 purge 閥。</li>
-<li>將溶劑入口濾頭（solvent inlet filter）取出，輕輕擦拭。</li>
-<li>流速開到 1–5 mL/min，把舊溶劑抽掉，直到看到氣泡。</li>
-<li>再把溶劑入口放進這次要使用的溶劑中。</li>
+<li>逆時針打開 purge 閥。</li>
+<li>取出溶劑入口濾頭（solvent inlet filter），輕輕擦拭。</li>
+<li>流速設 1–5 mL/min，抽掉舊溶劑，直到出現氣泡。</li>
+<li>把溶劑入口放進新的溶劑。</li>
 </ol></li>
 <li>Purge，直到管路（loop）沒有氣泡。</li>
+<li>順時針關緊 purge 閥。</li>
 <li>裝上管柱（column）。</li>
 <li>平衡 10–15 分鐘。</li>
-<li>載入方法（Method）。</li>
-<li>設定序列（Sequence）。</li>
+<li>載入 Method。</li>
+<li>設定 Sequence。</li>
 <li>按 Start 開始分析。</li>
 </ol>
 <p>下面影片為軟體的最新版本，本實驗室目前使用的軟體版本與影片中的可能有些微不同，請自行評估。</p>
