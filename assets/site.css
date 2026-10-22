@@ -2,6 +2,7 @@
 :root {
   --navy: #171a3a;
   --blue: #249fe0;
+  --blue-deep: #1b6ea8;
   --pink: #f51467;
   --purple: #321a62;
   --white: #ffffff;
@@ -174,7 +175,7 @@ h2[id] { scroll-margin-top: 24px; }
 ol.bullets ol.bullets { list-style: none; counter-reset: sub; padding-left: 0; margin-top: var(--space-3); }
 ol.bullets ol.bullets > li { counter-increment: sub; position: relative; margin-top: 8px; padding-left: 38px; }
 ol.bullets ol.bullets > li:first-child { margin-top: 0; }
-ol.bullets ol.bullets > li::before { content: counter(sub); position: absolute; left: 0; top: 3px; width: 24px; height: 24px; box-sizing: border-box; border: 1.5px solid var(--blue); border-radius: 50%; color: var(--navy); font: 600 13px/21px var(--font-sans); text-align: center; }
+ol.bullets ol.bullets > li::before { content: counter(sub); position: absolute; left: 0; top: 3px; width: 24px; height: 24px; border-radius: 50%; background: var(--blue-deep); color: var(--white); font: 700 12px/24px var(--font-sans); text-align: center; }
 .warn { border: 1px solid #c81e3a; border-left-width: 4px; background: #fdecee; border-radius: var(--radius-md); padding: var(--space-4); margin-top: var(--space-5); max-width: 680px; }
 .warn p { margin: 0; color: #8a0f26; font-size: 16px; line-height: 26px; }
 .cmp { width: 100%; max-width: 680px; margin-top: var(--space-5); border-collapse: collapse; font-size: 15px; line-height: 24px; }
