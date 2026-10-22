@@ -869,13 +869,14 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <li>裝上管柱（column）。</li>
 <li>平衡 10–15 分鐘。</li>
 <li>載入 Method。</li>
+<li>確認管柱溫箱（column oven）的控溫與 DAD 偵測器都已開啟。</li>
 <li>設定 Sequence，並加入 wash（沖洗）：
 <ul class="bullets">
 <li>短期保養：水相 / 有機相 = 50 / 50，不加 FA。</li>
 <li>長期保存：水相 / 有機相 = 20 / 80，不加 FA。</li>
 <li>操作時間長（如過夜）時，可再加入 shutdown（在 TMH-Kai 檔案中），會自動將流速設為 0 並關燈。</li>
 </ul></li>
-<li>按 Start 開始分析。</li>
+<li>確認壓力（pressure）穩定後，按 Start 開始分析。</li>
 </ol>
 <p class="muted">＊為什麼要 wash：沖掉管柱與管路裡殘留的樣品和 FA，避免影響下一次分析，也保護管柱。wash 與保存溶劑都不加 FA，是為了避免酸長時間殘留在管柱裡；長期保存改用高比例有機相，則是為了抑制微生物生長。</p>
 <p>下面影片是 2017 年 Agilent 線上課程的錄影（OpenLab CDS 2.2 版），約 2 小時 16 分，涵蓋 Acquisition 與 Data Analysis。本實驗室目前使用的軟體版本與影片中的可能有些微不同，請自行評估。</p>
