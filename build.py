@@ -864,6 +864,12 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <li>流速開到 1–5 mL/min，把舊溶劑抽掉，直到看到氣泡。</li>
 <li>再把溶劑入口放進這次要使用的溶劑中。</li>
 </ol></li>
+<li>Purge，直到管路（loop）沒有氣泡。</li>
+<li>裝上管柱（column）。</li>
+<li>平衡 10–15 分鐘。</li>
+<li>載入方法（Method）。</li>
+<li>設定序列（Sequence）。</li>
+<li>按 Start 開始分析。</li>
 </ol>
 <p>下面影片為軟體的最新版本，本實驗室目前使用的軟體版本與影片中的可能有些微不同，請自行評估。</p>
 <p>想看和電腦上完全相同版本的說明：在 Acquisition 或 Control Panel 視窗右上角點「?」（或按 F1），會開啟電腦內建的 OpenLab 說明。</p>
