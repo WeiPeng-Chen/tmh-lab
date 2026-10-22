@@ -847,6 +847,12 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <p>樣品注入後，由幫浦以高壓推動的移動相帶著通過層析管柱。樣品中不同成分與管柱填充物（固定相）的作用力不同，在管柱中前進的速度也不同，因此依序被分離；偵測器（常見的是紫外-可見光吸收偵測器）再依時間記錄訊號，畫出<strong>層析圖</strong>，依滯留時間辨識成分、依波峰面積進行定量。</p>
 <div class="videos">{video("eCj0cRtJvJg", "High Performance Liquid Chromatography HPLC- UV-VIS Detector Animation", "Biology with Animations")}</div>
 <h2>操作方式</h2>
+<h3>事前準備</h3>
+<ol class="bullets">
+<li>移動相加入 0.025% 甲酸（formic acid, FA）後，以濾膜抽氣過濾。</li>
+<li>LC-MS 等級（LC-MS grade）的溶劑不需要再過濾。</li>
+</ol>
+<p class="muted">＊為什麼要在移動相加入 FA：甲酸讓移動相呈弱酸性，使樣品中的酸性或鹼性成分維持穩定的解離狀態，並抑制管柱填充物表面矽醇基的解離，讓滯留時間更穩定、波峰更尖銳；若接質譜儀，甲酸也提供質子，有助於正離子模式的游離。</p>
 <p>下面影片為軟體的最新版本，本實驗室目前使用的軟體版本與影片中的可能有些微不同，請自行評估。</p>
 <p>想看和電腦上完全相同版本的說明：在 Acquisition 或 Control Panel 視窗右上角點「?」（或按 F1），會開啟電腦內建的 OpenLab 說明。</p>
 <div class="videos">{video("CvYzNQAEPWo", "OpenLAB Acquisition and Data Analysis New Version", "Data Analysis Chromatography Skills")}</div>
