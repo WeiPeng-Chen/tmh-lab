@@ -873,6 +873,7 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <ul class="bullets">
 <li>短期保養：水相 / 有機相 = 50 / 50。</li>
 <li>長期保存：水相 / 有機相 = 20 / 80，不加 FA。</li>
+<li>操作時間長（如過夜）時，可再加入 shutdown（在 TMH-Kai 檔案中）。</li>
 </ul></li>
 <li>按 Start 開始分析。</li>
 </ol>
