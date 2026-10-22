@@ -871,13 +871,13 @@ mpage("instruments/hplc", "高效液相層析儀（HPLC）", "以 Agilent 1260 I
 <li>載入 Method。</li>
 <li>設定 Sequence，並加入 wash（沖洗）：
 <ul class="bullets">
-<li>短期保養：水相 / 有機相 = 50 / 50。</li>
+<li>短期保養：水相 / 有機相 = 50 / 50，不加 FA。</li>
 <li>長期保存：水相 / 有機相 = 20 / 80，不加 FA。</li>
-<li>操作時間長（如過夜）時，可再加入 shutdown（在 TMH-Kai 檔案中）。</li>
+<li>操作時間長（如過夜）時，可再加入 shutdown（在 TMH-Kai 檔案中），會自動將流速設為 0 並關燈。</li>
 </ul></li>
 <li>按 Start 開始分析。</li>
 </ol>
-<p class="muted">＊為什麼要 wash：沖掉管柱與管路裡殘留的樣品和 FA，避免影響下一次分析，也保護管柱。長期保存改用高比例有機相、不加 FA，是為了抑制微生物生長，也避免酸長時間殘留在管柱裡。</p>
+<p class="muted">＊為什麼要 wash：沖掉管柱與管路裡殘留的樣品和 FA，避免影響下一次分析，也保護管柱。wash 與保存溶劑都不加 FA，是為了避免酸長時間殘留在管柱裡；長期保存改用高比例有機相，則是為了抑制微生物生長。</p>
 <p>下面影片為軟體的最新版本，本實驗室目前使用的軟體版本與影片中的可能有些微不同，請自行評估。</p>
 <p>想看和電腦上完全相同版本的說明：在 Acquisition 或 Control Panel 視窗右上角點「?」（或按 F1），會開啟電腦內建的 OpenLab 說明。</p>
 <div class="videos">{video("CvYzNQAEPWo", "OpenLAB Acquisition and Data Analysis New Version", "Data Analysis Chromatography Skills")}</div>
