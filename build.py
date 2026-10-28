@@ -8,14 +8,15 @@ PI = "Teh-Min Hu"
 
 # ---- Members (locked) area -------------------------------------------------------
 # The password is NOT stored in the site. build.py reads it from the environment
-# (MEMBERS_PASSWORD) or from ../members-password.txt (outside the published folder).
+# (MEMBERS_PASSWORD) or from members-password.txt, either next to build.py or one folder up.
+# .gitignore keeps that file out of git, so it is never pushed to the public repo.
 def _password():
     if os.environ.get("MEMBERS_PASSWORD"):
         return os.environ["MEMBERS_PASSWORD"]
-    f = os.path.join(ROOT, "..", "members-password.txt")
-    if os.path.exists(f):
-        return open(f, encoding="utf-8").read().strip()
-    sys.exit("找不到密碼：請建立 ../members-password.txt 或設定 MEMBERS_PASSWORD")
+    for f in (os.path.join(ROOT, "members-password.txt"), os.path.join(ROOT, "..", "members-password.txt")):
+        if os.path.exists(f):
+            return open(f, encoding="utf-8").read().strip()
+    sys.exit("找不到密碼：請建立 members-password.txt（放在 build.py 旁邊或上一層）或設定 MEMBERS_PASSWORD")
 
 
 PBKDF2_ITER = 200_000
