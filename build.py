@@ -833,7 +833,6 @@ mpage("instruments/texture-analyzer", "質構儀（Texture Analyzer）", "以 Br
 <h2>操作方式</h2>
 <h3>使用手冊</h3>
 <p><a href="https://docs.google.com/presentation/d/1qqNyymBkBVhhwEfdO0Wrjf8LuyLd5bQG/edit?usp=sharing" target="_blank" rel="noopener">CT3 質構儀操作（2025 版，Google 簡報）→</a></p>
-<p><a href="https://docs.google.com/presentation/d/1WdYAUJW7eqxHFFa7Z1cOHkzkpt-xNU9k/edit?usp=sharing" target="_blank" rel="noopener">質構儀操作（2023 版，Google 簡報）→</a></p>
 <h3>附件</h3>
 <p><a href="../../assets/instruments/manuals/ct3-manual.pdf" target="_blank" rel="noopener">CT3 操作手冊（Brookfield，PDF，64 頁）→</a></p>
 <p><a href="../../assets/instruments/manuals/texture-pro-ct-manual.pdf" target="_blank" rel="noopener">Texture Pro CT 軟體操作手冊（PDF，34 頁）→</a></p>
